@@ -92,7 +92,7 @@ public class GameManager : MonoBehaviour
             case (int)Room.
 
         debug:
-                dest.doors[0] = 0;
+                dest.doors[0] = 1;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
@@ -100,32 +100,32 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         frontDoor:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[0] = 2;
+                dest.doors[1] = 8;
+                dest.doors[2] = 14;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         foyer:
-                dest.doors[0] = 0;
+                dest.doors[0] = 3;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 1;
                 break;
 
             case (int)Room.
         kitchen:
-                dest.doors[0] = 0;
+                dest.doors[0] = 5;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 4;
+                dest.doors[3] = 2;
                 break;
 
             case (int)Room.
         livingRoom:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[1] = 3;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
@@ -135,22 +135,22 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 3;
                 break;
 
             case (int)Room.
         jewelryStore:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[1] = 7;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 15;
                 break;
 
             case (int)Room.
         storeManagerRoom:
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[2] = 6;
                 dest.doors[3] = 0;
                 break;
 
@@ -158,16 +158,16 @@ public class GameManager : MonoBehaviour
         lily:
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[2] = 1;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         townHallEntrance:
-                dest.doors[0] = 0;
+                dest.doors[0] = 10;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 11;
+                dest.doors[3] = 22;
                 break;
 
             case (int)Room.
@@ -175,13 +175,13 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 9;
                 break;
 
             case (int)Room.
         townHallSecondFloor:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 12;
+                dest.doors[1] = 9;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
@@ -191,7 +191,7 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 11;
                 break;
 
             case (int)Room.
@@ -199,126 +199,126 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 14;
                 break;
 
             case (int)Room.
         oliver:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[0] = 13;
+                dest.doors[1] = 1;
+                dest.doors[2] = 15;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         northMainStreet:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 6;
+                dest.doors[1] = 14;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 16;
                 break;
 
             case (int)Room.
         mainStreetPlazaGate:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 15;
+                dest.doors[1] = 22;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 17;
                 break;
 
             case (int)Room.
         southMainStreet:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 16;
+                dest.doors[1] = 22;
+                dest.doors[2] = 19;
+                dest.doors[3] = 23;
                 break;
 
             case (int)Room.
         roseParkNorthWest:
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 20;
+                dest.doors[3] = 19;
                 break;
 
             case (int)Room.
         roseParkSouthWest:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[0] = 18;
+                dest.doors[1] = 17;
+                dest.doors[2] = 21;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         roseParkNorthEast:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[1] = 18;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 21;
                 break;
 
             case (int)Room.
         roseParkSouthEast:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 20;
+                dest.doors[1] = 19;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         townPlaza:
-                dest.doors[0] = 0;
+                dest.doors[0] = 9;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[2] = 17;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         towerEntrance:
-                dest.doors[0] = 0;
+                dest.doors[0] = 17;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 24;
                 break;
 
             case (int)Room.
         towerReception:
-                dest.doors[0] = 0;
+                dest.doors[0] = 23;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[2] = 25;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         towerElevators:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[1] = 24;
+                dest.doors[2] = 26;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         towerFirstFloor:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[1] = 25;
+                dest.doors[2] = 27;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         towerSecondFloor:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[1] = 26;
+                dest.doors[2] = 28;
                 dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         towerThirdFloor:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
+                dest.doors[0] = 29;
+                dest.doors[1] = 27;
+                dest.doors[2] = 30;
                 dest.doors[3] = 0;
                 break;
 
@@ -327,7 +327,7 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 28;
                 break;
 
             case (int)Room.
