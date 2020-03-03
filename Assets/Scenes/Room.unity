@@ -1989,15 +1989,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22480264, guid: 298daca7decb9f846b5ff996ee97a495, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -60.0597
+      value: -62.128815
       objectReference: {fileID: 0}
     - target: {fileID: 22480264, guid: 298daca7decb9f846b5ff996ee97a495, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 345.31342
+      value: 343.64746
       objectReference: {fileID: 0}
     - target: {fileID: 22480264, guid: 298daca7decb9f846b5ff996ee97a495, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40.1194
+      value: 44.257626
       objectReference: {fileID: 0}
     - target: {fileID: 1538843524874328, guid: 298daca7decb9f846b5ff996ee97a495, type: 3}
       propertyPath: m_IsActive
@@ -2021,7 +2021,7 @@ PrefabInstance:
     - target: {fileID: 224032894659083038, guid: 298daca7decb9f846b5ff996ee97a495,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 110.1194
+      value: 114.25763
       objectReference: {fileID: 0}
     - target: {fileID: 224032894659083038, guid: 298daca7decb9f846b5ff996ee97a495,
         type: 3}
@@ -3693,11 +3693,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 57.41766, y: 36.94932}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3706,8 +3706,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2075409675}
-  selectedCommands:
-  - {fileID: 2075409678}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4333,6 +4332,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
+      propertyPath: roomCanvasLayouts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomDialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
       propertyPath: roomBackgrounds.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 2899e4c4b4baa804c883944bc929f2f6,
@@ -4382,6 +4391,12 @@ PrefabInstance:
       propertyPath: roomBackgrounds.Array.data[37]
       value: 
       objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomCanvasLayouts.Array.data[0]
+      value: 
+      objectReference: {fileID: 4944508222067719689, guid: 97135438b4f139b4bae69ae7b4aaa8d4,
         type: 3}
     - target: {fileID: 5120899229982212356, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
