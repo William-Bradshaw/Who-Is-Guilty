@@ -17,6 +17,8 @@ public class RoomManager : MonoBehaviour
 
     public Fungus.Flowchart[] roomDialogues;
 
+    int roomIDLastCheck;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,22 @@ public class RoomManager : MonoBehaviour
         // set current roomBG
         int currentRoomID = (int) gameState.currentRoom;
         background.sprite = roomBackgrounds[currentRoomID];
+
+        // run if change in current room ID
+        if(currentRoomID != roomIDLastCheck)
+        {
+            Debug.Log("Player moving from room " + roomIDLastCheck + " to new room " + currentRoomID);
+
+            roomIDLastCheck = currentRoomID;
+        }
+
+        if (!gameState.eventFlags[currentRoomID])
+        {
+            Debug.Log("Room " + currentRoomID + ": running first entry script");
+
+            // set room's "visited" flag to true upon first entry
+            gameState.eventFlags[currentRoomID] = true;
+        }
 
     }
 }
