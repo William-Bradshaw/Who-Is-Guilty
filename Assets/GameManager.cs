@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour
         
     }
 
-    private static RoomDestinations returnDestinations(int id)
+    public static RoomDestinations returnDestinations(int id)
     {
 
         RoomDestinations dest = new RoomDestinations();

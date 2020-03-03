@@ -9,6 +9,11 @@ public class RoomManager : MonoBehaviour
     public GameManager gameState;
     public Image background;
 
+    public Lean.Gui.LeanButton NorthButton;
+    public Lean.Gui.LeanButton WestButton;
+    public Lean.Gui.LeanButton EastButton;
+    public Lean.Gui.LeanButton SouthButton;
+
     public Sprite[] roomBackgrounds;
 
     public AudioClip[] gameBGM;
@@ -43,6 +48,47 @@ public class RoomManager : MonoBehaviour
             Debug.Log("Player moving from room " + roomIDLastCheck + " to new room " + currentRoomID);
 
             roomIDLastCheck = currentRoomID;
+
+
+            // code on changing rooms
+
+            GameManager.RoomDestinations currentDestinations = GameManager.returnDestinations(currentRoomID);
+
+            if(currentDestinations.doors[0] != 0)
+            {
+                NorthButton.interactable = true;
+            } else
+            {
+                NorthButton.interactable = false;
+            }
+
+            if (currentDestinations.doors[1] != 0)
+            {
+                WestButton.interactable = true;
+            }
+            else
+            {
+                WestButton.interactable = false;
+            }
+
+            if (currentDestinations.doors[2] != 0)
+            {
+                EastButton.interactable = true;
+            }
+            else
+            {
+                EastButton.interactable = false;
+            }
+
+            if (currentDestinations.doors[3] != 0)
+            {
+                SouthButton.interactable = true;
+            }
+            else
+            {
+                SouthButton.interactable = false;
+            }
+
         }
 
         if (!gameState.eventFlags[currentRoomID])
