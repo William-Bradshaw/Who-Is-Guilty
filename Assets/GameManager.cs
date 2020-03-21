@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    RoomDestinations currentDestinationList;
+    static RoomDestinations currentDestinationList;
 
     public enum Room
     {
@@ -75,10 +75,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        foreach (Room r in currentDestinationList.doors)
-        {
 
+        currentDestinationList = new RoomDestinations();
+
+        for (int i = 0; i < 4; i++)
+        {
+            //currentDestinationList.doors[i] = new Room();
         }
 
     }
@@ -487,7 +489,7 @@ public class GameManager : MonoBehaviour
 
         }
 
-        //currentDestinationList = dest;
+        currentDestinationList = dest;
         return dest;
 
     }
@@ -495,21 +497,28 @@ public class GameManager : MonoBehaviour
     public void northButtonPressed()
     {
         currentRoom = (Room) currentDestinationList.doors[0];
+        Debug.Log("Travel north to room " + currentDestinationList.doors[0]);
     }
 
     public void westButtonPressed()
     {
         currentRoom = (Room)currentDestinationList.doors[1];
+        Debug.Log("Travel west to room " + currentDestinationList.doors[1]);
+
     }
 
     public void eastButtonPressed()
     {
         currentRoom = (Room)currentDestinationList.doors[2];
+        Debug.Log("Travel east to room " + currentDestinationList.doors[2]);
+
     }
 
     public void southButtonPressed()
     {
         currentRoom = (Room)currentDestinationList.doors[3];
+        Debug.Log("Travel south to room " + currentDestinationList.doors[3]);
+
     }
 
 }

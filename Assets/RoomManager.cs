@@ -55,7 +55,15 @@ public class RoomManager : MonoBehaviour
 
             GameManager.RoomDestinations currentDestinations = GameManager.returnDestinations(currentRoomID);
 
-            if(currentDestinations.doors[0] != 0)
+            // Log current valid destinations
+
+            Debug.Log("current exits: " + currentDestinations.doors[0] + "    " +
+                currentDestinations.doors[1] + "    " +
+                currentDestinations.doors[2] + "    " +
+                currentDestinations.doors[3]);
+
+
+            if (currentDestinations.doors[0] != 0)
             {
                 NorthButton.interactable = true;
             } else
