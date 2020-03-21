@@ -27,6 +27,8 @@ public class RoomManager : MonoBehaviour
 
     int roomIDLastCheck;
 
+    int currentSongPlaying;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,29 +116,80 @@ public class RoomManager : MonoBehaviour
 
             }
 
-        }
 
-        if (!gameState.eventFlags[currentRoomID])
-        {
-            Debug.Log("Room " + currentRoomID + ": running first entry script");
+            if (!gameState.eventFlags[currentRoomID])
+            {
+                Debug.Log("Room " + currentRoomID + ": running first entry script");
 
-            // set room's "visited" flag to true upon first entry
-            gameState.eventFlags[currentRoomID] = true;
-        }
+                // set room's "visited" flag to true upon first entry
+                gameState.eventFlags[currentRoomID] = true;
+            }
 
-        // change room canvas layout to match current room
+            // change room canvas layout to match current room
 
-        Destroy(currentRoomCanvasLayout);
-        currentRoomCanvasLayout = Instantiate(roomCanvasLayouts[currentRoomID]);
-
+            Destroy(currentRoomCanvasLayout);
+            currentRoomCanvasLayout = Instantiate(roomCanvasLayouts[currentRoomID]);
 
 
-        // update Music
 
-        if (currentRoomID > 10)
-        {
-            audioPlayer.clip = gameBGM[3];
-            audioPlayer.Play();
+            // update Music background track based on current room
+
+            if (currentRoomID < 6)
+            {
+                if (currentSongPlaying != 2)
+                {
+                    // crime scene music (Sofia's Home)
+                    audioPlayer.clip = gameBGM[2];
+                    currentSongPlaying = 2;
+                    audioPlayer.Play();
+                }
+
+            }
+            else if (currentRoomID < 14)
+            {
+                if (currentSongPlaying != 4)
+                {
+                    // general indoor music
+                    audioPlayer.clip = gameBGM[4];
+                    currentSongPlaying = 4;
+                    audioPlayer.Play();
+                }
+
+            }
+            else if (currentRoomID < 24)
+            {
+                if (currentSongPlaying != 3)
+                {
+                    // general outdoor/town music
+                    audioPlayer.clip = gameBGM[3];
+                    currentSongPlaying = 3;
+                    audioPlayer.Play();
+                }
+            }
+            else if (currentRoomID < 32)
+            {
+                if (currentSongPlaying != 4)
+                {
+                    // general indoor music (for tower area)
+                    audioPlayer.clip = gameBGM[4];
+                    currentSongPlaying = 4;
+                    audioPlayer.Play();
+                }
+
+            }
+            else
+            {
+                if (currentSongPlaying != 5)
+                {
+                    // creepy music for final areas
+                    audioPlayer.clip = gameBGM[5];
+                    currentSongPlaying = 5;
+                    audioPlayer.Play();
+                }
+
+            }
+
+
         }
 
 
