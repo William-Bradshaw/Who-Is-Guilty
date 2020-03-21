@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2075409676}
+  selectedFlowchart: {fileID: 1569936090}
 --- !u!4 &99753554
 Transform:
   m_ObjectHideFlags: 1
@@ -539,7 +539,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 133456183}
-  - component: {fileID: 133456186}
   - component: {fileID: 133456185}
   - component: {fileID: 133456184}
   m_Layer: 0
@@ -597,24 +596,6 @@ MonoBehaviour:
     Duration: 0.2
     Target: {fileID: 596470766}
     Position: -10
-    Ease: 250
---- !u!114 &133456186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133456182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.2
-    Target: {fileID: 596470764}
-    Color: {r: 0.03373701, g: 0.46191987, b: 0.7647059, a: 1}
     Ease: 250
 --- !u!1 &200693321
 GameObject:
@@ -1232,7 +1213,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400679906}
-  - component: {fileID: 400679909}
   - component: {fileID: 400679908}
   - component: {fileID: 400679907}
   m_Layer: 0
@@ -1290,24 +1270,6 @@ MonoBehaviour:
     Duration: 0.2
     Target: {fileID: 1201235501}
     Position: -10
-    Ease: 250
---- !u!114 &400679909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400679905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.2
-    Target: {fileID: 1201235499}
-    Color: {r: 0.03373701, g: 0.46191987, b: 0.7647059, a: 1}
     Ease: 250
 --- !u!1 &409299616
 GameObject:
@@ -1813,7 +1775,18 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461096149}
+        m_MethodName: northButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &523925969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,7 +1946,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 566041164}
-  - component: {fileID: 566041166}
   - component: {fileID: 566041165}
   m_Layer: 0
   m_Name: '[Normal Transitions]'
@@ -2013,24 +1985,6 @@ MonoBehaviour:
     Duration: 0.1
     Target: {fileID: 1057266912}
     Position: 0
-    Ease: 250
---- !u!114 &566041166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566041163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.1
-    Target: {fileID: 1057266910}
-    Color: {r: 0.03137255, g: 0.5803922, b: 0.96862745, a: 1}
     Ease: 250
 --- !u!1 &596470763
 GameObject:
@@ -2439,7 +2393,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 773459273}
-  - component: {fileID: 773459275}
   - component: {fileID: 773459274}
   m_Layer: 0
   m_Name: '[Normal Transitions]'
@@ -2480,24 +2433,6 @@ MonoBehaviour:
     Target: {fileID: 1201235501}
     Position: 0
     Ease: 250
---- !u!114 &773459275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773459272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.1
-    Target: {fileID: 1201235499}
-    Color: {r: 0.03137255, g: 0.5803922, b: 0.96862745, a: 1}
-    Ease: 250
 --- !u!1 &798177649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,7 +2442,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 798177650}
-  - component: {fileID: 798177652}
   - component: {fileID: 798177651}
   m_Layer: 0
   m_Name: '[Normal Transitions]'
@@ -2547,24 +2481,6 @@ MonoBehaviour:
     Duration: 0.1
     Target: {fileID: 596470766}
     Position: 0
-    Ease: 250
---- !u!114 &798177652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798177649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.1
-    Target: {fileID: 596470764}
-    Color: {r: 0.03137255, g: 0.5803922, b: 0.96862745, a: 1}
     Ease: 250
 --- !u!1 &852021943
 GameObject:
@@ -3369,7 +3285,18 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461096149}
+        m_MethodName: westButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1037560435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,7 +3758,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1233161552}
-  - component: {fileID: 1233161555}
   - component: {fileID: 1233161554}
   - component: {fileID: 1233161553}
   m_Layer: 0
@@ -3889,24 +3815,6 @@ MonoBehaviour:
     Duration: 0.2
     Target: {fileID: 1057266912}
     Position: -10
-    Ease: 250
---- !u!114 &1233161555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233161551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.2
-    Target: {fileID: 1057266910}
-    Color: {r: 0.03373701, g: 0.46191987, b: 0.7647059, a: 1}
     Ease: 250
 --- !u!1 &1239296493
 GameObject:
@@ -4442,6 +4350,212 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451866357}
   m_CullTransparentMesh: 0
+--- !u!1 &1569936084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569936091}
+  - component: {fileID: 1569936090}
+  - component: {fileID: 1569936089}
+  - component: {fileID: 1569936088}
+  - component: {fileID: 1569936087}
+  - component: {fileID: 1569936086}
+  - component: {fileID: 1569936085}
+  m_Layer: 0
+  m_Name: Flowchart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1569936085
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: Right. Sofia. ...I'll take you to where she is.
+  description: 
+  character: {fileID: 219976431}
+  portrait: {fileID: 21300000, guid: c86ccf1475cd1cb429662df936588918, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1569936086
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'ferris FerrisTalk Middle: what''s up?
+
+      Please enter a name for the detective.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936087
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'clara: Here''s where we''re headed. Auburn Town!\nIt''s normally a
+      quiet place, so everyone''s really freaking out about what happened to Sofia.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936088
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1569936089}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &1569936089
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 179
+    y: 217
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: Start
+  description: 
+  eventHandler: {fileID: 1569936088}
+  commandList:
+  - {fileID: 1569936085}
+  - {fileID: 1569936086}
+  - {fileID: 1569936087}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  scrollPos: {x: 57.41766, y: 36.94932}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 400
+  zoom: 0.7900002
+  scrollViewRect:
+    serializedVersion: 2
+    x: -343
+    y: -340
+    width: 1114
+    height: 859
+  selectedBlocks:
+  - {fileID: 1569936089}
+  selectedCommands: []
+  variables: []
+  description: 
+  stepPause: 0
+  colorCommands: 1
+  hideComponents: 1
+  saveSelection: 1
+  localizationId: 
+  showLineNumbers: 0
+  hideCommands: []
+  luaEnvironment: {fileID: 0}
+  luaBindingName: flowchart
+--- !u!4 &1569936091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1571344970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,7 +4839,18 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461096149}
+        m_MethodName: southButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1630901650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,7 +4957,18 @@ MonoBehaviour:
       m_Calls: []
   onClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461096149}
+        m_MethodName: eastButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1647182232
 GameObject:
   m_ObjectHideFlags: 0
@@ -5193,7 +5329,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1816482564}
-  - component: {fileID: 1816482566}
   - component: {fileID: 1816482565}
   m_Layer: 0
   m_Name: '[Normal Transitions]'
@@ -5233,24 +5368,6 @@ MonoBehaviour:
     Duration: 0.1
     Target: {fileID: 409299619}
     Position: 0
-    Ease: 250
---- !u!114 &1816482566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816482563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.1
-    Target: {fileID: 409299617}
-    Color: {r: 0.03137255, g: 0.5803922, b: 0.96862745, a: 1}
     Ease: 250
 --- !u!1 &1828976634
 GameObject:
@@ -5743,7 +5860,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2068738307}
-  - component: {fileID: 2068738310}
   - component: {fileID: 2068738309}
   - component: {fileID: 2068738308}
   m_Layer: 0
@@ -5802,230 +5918,6 @@ MonoBehaviour:
     Target: {fileID: 409299619}
     Position: -10
     Ease: 250
---- !u!114 &2068738310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068738306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac2062a3d7ad54abdcf2672edae623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Alias: 
-  Data:
-    Duration: 0.2
-    Target: {fileID: 409299617}
-    Color: {r: 0.03373701, g: 0.46191987, b: 0.7647059, a: 1}
-    Ease: 250
---- !u!1 &2075409671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2075409677}
-  - component: {fileID: 2075409676}
-  - component: {fileID: 2075409675}
-  - component: {fileID: 2075409674}
-  - component: {fileID: 2075409673}
-  - component: {fileID: 2075409672}
-  - component: {fileID: 2075409678}
-  m_Layer: 0
-  m_Name: Flowchart
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2075409672
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'ferris FerrisTalk Middle: what''s up?
-
-      Please enter a name for the detective.'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &2075409673
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'clara: Here''s where we''re headed. Auburn Town!\nIt''s normally a
-      quiet place, so everyone''s really freaking out about what happened to Sofia.'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &2075409674
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2075409675}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
---- !u!114 &2075409675
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 179
-    y: 217
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Start
-  description: 
-  eventHandler: {fileID: 2075409674}
-  commandList:
-  - {fileID: 2075409678}
-  - {fileID: 2075409672}
-  - {fileID: 2075409673}
-  suppressAllAutoSelections: 0
---- !u!114 &2075409676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  scrollPos: {x: 57.41766, y: 36.94932}
-  variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.7900002
-  scrollViewRect:
-    serializedVersion: 2
-    x: -343
-    y: -340
-    width: 1114
-    height: 859
-  selectedBlocks:
-  - {fileID: 2075409675}
-  selectedCommands: []
-  variables: []
-  description: 
-  stepPause: 0
-  colorCommands: 1
-  hideComponents: 1
-  saveSelection: 1
-  localizationId: 
-  showLineNumbers: 0
-  hideCommands: []
-  luaEnvironment: {fileID: 0}
-  luaBindingName: flowchart
---- !u!4 &2075409677
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2075409678
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075409671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: Right. Sofia. ...I'll take you to where she is.
-  description: 
-  character: {fileID: 219976431}
-  portrait: {fileID: 21300000, guid: c86ccf1475cd1cb429662df936588918, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1 &2092847357
 GameObject:
   m_ObjectHideFlags: 0
@@ -6159,7 +6051,7 @@ Transform:
   m_Children:
   - {fileID: 392127426}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134270244
 GameObject:
@@ -6579,7 +6471,7 @@ PrefabInstance:
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
       propertyPath: currentRoom
-      value: 33
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
@@ -6673,7 +6565,7 @@ PrefabInstance:
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.size
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -6700,13 +6592,13 @@ PrefabInstance:
         type: 3}
       propertyPath: roomBackgrounds.Array.data[32]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 31a4fc5cd14719e44b346bc7812c792f,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[34]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 9491849623c1ddd4e8fc060f82810dd3,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -6718,19 +6610,19 @@ PrefabInstance:
         type: 3}
       propertyPath: roomBackgrounds.Array.data[35]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[36]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[37]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -6758,6 +6650,198 @@ PrefabInstance:
       propertyPath: SouthButton
       value: 
       objectReference: {fileID: 1625778755}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c10d0bd6f5661a943966117d74037edc,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 359c945082fcab04eaffca63daf0be8c,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 160cb7f8772eeee4290e86ffe19d02ec,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: ba8c649665ea0264aa793d3862c741ed,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: bb5ebed1fbd7174468851295afc00f30,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d4b6bad05300904e8f41525af1aabe7,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 325b7ff6a85f9464fbd007bd5beecb56,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 325b7ff6a85f9464fbd007bd5beecb56,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 667d032acec503c46a6b10fd960f2454,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: c9186bebd4a0f11488d8219110814315,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: abb3d16b4d7dc4e4d8ec47582efd6da6,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5dd8e31d0493d264db5394adcfec5596,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: b95ce8dc5ca7b154485ddeda8c2b199c,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1818f6097f5452c4da0eadcb3591c876,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: e75a303d47cb94942bd2f00482629dfb,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: 75a44dd84248feb4ba7bf4605d4051ec,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: 374d1724c9d6ef0468d39e5e760f6993,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: 08a5edac30693a9488e13ee14831b39a,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: b8e6b59408f0a2f4ab30f2dae064a2cb,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: d63e801c2eb4d934fbaff91e683c0adf,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: b42ce0b26b6db9e40bbbe0399bae51e3,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9341db8a82f69e342af2ee9c0981115d,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: 851e20f4287752447a1ac4e5b1ef8f24,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c44c2b5328177f448fd5dc079a2cdc5,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[25]
+      value: 
+      objectReference: {fileID: 21300000, guid: df7b2a45db8a42c41bc276460609312f,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[26]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c6ccca85f5445748843a1e53bfb3f6f,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[27]
+      value: 
+      objectReference: {fileID: 21300000, guid: 47bc9243c4f4e404081653076e46f011,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[28]
+      value: 
+      objectReference: {fileID: 21300000, guid: 57eaea25d97f6154c83e78ba05d65de8,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[31]
+      value: 
+      objectReference: {fileID: 21300000, guid: 194ade548675c5a4c98416eaa0b65730,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[30]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2d39d94e2c4bbfd4fb6e1df7fef08cc6,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[29]
+      value: 
+      objectReference: {fileID: 21300000, guid: ff1cd0a7bf944bb4fb81b1272737be03,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomCanvasLayouts.Array.data[3]
+      value: 
+      objectReference: {fileID: 4944508222067719689, guid: 5336f18554e90fe4eba9f5338accd199,
+        type: 3}
     - target: {fileID: 5120899229982212356, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: m_LocalPosition.x

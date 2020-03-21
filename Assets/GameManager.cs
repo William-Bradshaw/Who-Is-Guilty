@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
 
     }
 
+    RoomDestinations currentDestinationList;
+
     public enum Room
     {
         debug,
@@ -74,6 +76,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         
+        foreach (Room r in currentDestinationList.doors)
+        {
+
+        }
+
     }
 
     // Update is called once per frame
@@ -480,8 +487,29 @@ public class GameManager : MonoBehaviour
 
         }
 
+        //currentDestinationList = dest;
         return dest;
 
+    }
+
+    public void northButtonPressed()
+    {
+        currentRoom = (Room) currentDestinationList.doors[0];
+    }
+
+    public void westButtonPressed()
+    {
+        currentRoom = (Room)currentDestinationList.doors[1];
+    }
+
+    public void eastButtonPressed()
+    {
+        currentRoom = (Room)currentDestinationList.doors[2];
+    }
+
+    public void southButtonPressed()
+    {
+        currentRoom = (Room)currentDestinationList.doors[3];
     }
 
 }

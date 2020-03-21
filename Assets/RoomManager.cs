@@ -19,6 +19,7 @@ public class RoomManager : MonoBehaviour
     public AudioClip[] gameBGM;
 
     public GameObject[] roomCanvasLayouts;
+    private GameObject currentRoomCanvasLayout;
 
     public Fungus.Flowchart[] roomDialogues;
 
@@ -30,7 +31,7 @@ public class RoomManager : MonoBehaviour
 
         // generate room canvas
         int currentRoomID = (int)gameState.currentRoom;
-        Instantiate(roomCanvasLayouts[currentRoomID]);
+        currentRoomCanvasLayout = Instantiate(roomCanvasLayouts[currentRoomID]);
 
     }
 
@@ -98,6 +99,11 @@ public class RoomManager : MonoBehaviour
             // set room's "visited" flag to true upon first entry
             gameState.eventFlags[currentRoomID] = true;
         }
+
+        // change room canvas layout to match current room
+
+        Destroy(currentRoomCanvasLayout);
+        currentRoomCanvasLayout = Instantiate(roomCanvasLayouts[currentRoomID]);
 
     }
 }
