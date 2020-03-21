@@ -6565,7 +6565,7 @@ PrefabInstance:
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.size
-      value: 8
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -6841,6 +6841,18 @@ PrefabInstance:
       propertyPath: roomCanvasLayouts.Array.data[3]
       value: 
       objectReference: {fileID: 4944508222067719689, guid: 5336f18554e90fe4eba9f5338accd199,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomCanvasLayouts.Array.data[1]
+      value: 
+      objectReference: {fileID: 4944508222067719689, guid: 85478e12f8d486445a166a4741a531a5,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomCanvasLayouts.Array.data[2]
+      value: 
+      objectReference: {fileID: 4944508222067719689, guid: 9bf9581ecb972224ea1c2bdf0550da73,
         type: 3}
     - target: {fileID: 5120899229982212356, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
