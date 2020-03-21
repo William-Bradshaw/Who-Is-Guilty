@@ -18,6 +18,8 @@ public class RoomManager : MonoBehaviour
 
     public AudioClip[] gameBGM;
 
+    private AudioSource audioPlayer;
+
     public GameObject[] roomCanvasLayouts;
     private GameObject currentRoomCanvasLayout;
 
@@ -28,6 +30,7 @@ public class RoomManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioPlayer = gameObject.GetComponent<AudioSource>();
 
         // generate room canvas
         int currentRoomID = (int)gameState.currentRoom;
@@ -40,11 +43,11 @@ public class RoomManager : MonoBehaviour
     {
 
         // set current roomBG
-        int currentRoomID = (int) gameState.currentRoom;
+        int currentRoomID = (int)gameState.currentRoom;
         background.sprite = roomBackgrounds[currentRoomID];
 
         // run if change in current room ID
-        if(currentRoomID != roomIDLastCheck)
+        if (currentRoomID != roomIDLastCheck)
         {
             Debug.Log("Player moving from room " + roomIDLastCheck + " to new room " + currentRoomID);
 
@@ -55,7 +58,7 @@ public class RoomManager : MonoBehaviour
 
             GameManager.returnDestinations(currentRoomID);
             GameManager.RoomDestinations currentDestinations = GameManager.currentDestinationList;
-                
+
 
             // Log current valid destinations
 
@@ -125,6 +128,17 @@ public class RoomManager : MonoBehaviour
 
         Destroy(currentRoomCanvasLayout);
         currentRoomCanvasLayout = Instantiate(roomCanvasLayouts[currentRoomID]);
+
+
+
+        // update Music
+
+        if (currentRoomID > 10)
+        {
+            audioPlayer.clip = gameBGM[3];
+            audioPlayer.Play();
+        }
+
 
     }
 }
