@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    static RoomDestinations currentDestinationList;
+    public static RoomDestinations currentDestinationList;
 
     public enum Room
     {
@@ -91,7 +91,7 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public static RoomDestinations returnDestinations(int id)
+    public static void returnDestinations(int id)
     {
 
         RoomDestinations dest = new RoomDestinations();
@@ -484,13 +484,10 @@ public class GameManager : MonoBehaviour
                 break;
 
             default:
-
-                return dest;
-
+                break;
         }
 
         currentDestinationList = dest;
-        return dest;
 
     }
 

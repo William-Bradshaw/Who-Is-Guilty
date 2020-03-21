@@ -53,7 +53,9 @@ public class RoomManager : MonoBehaviour
 
             // code on changing rooms
 
-            GameManager.RoomDestinations currentDestinations = GameManager.returnDestinations(currentRoomID);
+            GameManager.returnDestinations(currentRoomID);
+            GameManager.RoomDestinations currentDestinations = GameManager.currentDestinationList;
+                
 
             // Log current valid destinations
 
@@ -65,37 +67,48 @@ public class RoomManager : MonoBehaviour
 
             if (currentDestinations.doors[0] != 0)
             {
+                NorthButton.gameObject.SetActive(true);
                 NorthButton.interactable = true;
             } else
             {
                 NorthButton.interactable = false;
+                NorthButton.gameObject.SetActive(false);
             }
 
             if (currentDestinations.doors[1] != 0)
             {
+                WestButton.gameObject.SetActive(true);
                 WestButton.interactable = true;
             }
             else
             {
                 WestButton.interactable = false;
+                WestButton.gameObject.SetActive(false);
+
             }
 
             if (currentDestinations.doors[2] != 0)
             {
+                EastButton.gameObject.SetActive(true);
                 EastButton.interactable = true;
             }
             else
             {
                 EastButton.interactable = false;
+                EastButton.gameObject.SetActive(false);
+
             }
 
             if (currentDestinations.doors[3] != 0)
             {
+                SouthButton.gameObject.SetActive(true);
                 SouthButton.interactable = true;
             }
             else
             {
                 SouthButton.interactable = false;
+                SouthButton.gameObject.SetActive(false);
+
             }
 
         }
