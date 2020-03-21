@@ -6705,7 +6705,7 @@ PrefabInstance:
         type: 3}
       propertyPath: roomBackgrounds.Array.data[34]
       value: 
-      objectReference: {fileID: 21300000, guid: 9491849623c1ddd4e8fc060f82810dd3,
+      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -6717,19 +6717,19 @@ PrefabInstance:
         type: 3}
       propertyPath: roomBackgrounds.Array.data[35]
       value: 
-      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
+      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[36]
       value: 
-      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
+      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[37]
       value: 
-      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
+      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -7260,6 +7260,66 @@ PrefabInstance:
       propertyPath: gameBGM.Array.data[6]
       value: 
       objectReference: {fileID: 8300000, guid: fc9deab1873ff1443a26ab1298b97ba1, type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[38]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9491849623c1ddd4e8fc060f82810dd3,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[39]
+      value: 
+      objectReference: {fileID: 21300000, guid: c2e7fb2e8bf3c2a409a4c6e86778f690,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[40]
+      value: 
+      objectReference: {fileID: 21300000, guid: e53ad121de0f5c140b7c72295d70e447,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[41]
+      value: 
+      objectReference: {fileID: 21300000, guid: a815cebd68ac9744abdedb1bfc13042e,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[42]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6e5d3209eea4a334db266f627eff2c06,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[43]
+      value: 
+      objectReference: {fileID: 21300000, guid: d2055b3fef4494d4d9bbe3df27465991,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[44]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8801fad4738d82648944035df8c155d0,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[45]
+      value: 
+      objectReference: {fileID: 21300000, guid: ad0f782cbe48b8949896c91340b7d324,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[46]
+      value: 
+      objectReference: {fileID: 21300000, guid: dfad20f8cf0e66344ad042e67fd13eb9,
+        type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: roomBackgrounds.Array.data[47]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
+        type: 3}
     - target: {fileID: 5120899229982212356, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: m_LocalPosition.x

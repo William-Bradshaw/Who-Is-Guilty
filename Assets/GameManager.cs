@@ -405,8 +405,8 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         outsideShack:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 39;
+                dest.doors[1] = 42;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
@@ -415,21 +415,21 @@ public class GameManager : MonoBehaviour
         shack1:
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 40;
+                dest.doors[3] = 38;
                 break;
 
             case (int)Room.
         shack2:
                 dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[1] = 39;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 41;
                 break;
 
             case (int)Room.
         shack3:
-                dest.doors[0] = 0;
+                dest.doors[0] = 40;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
@@ -437,24 +437,24 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         caveEntrance:
-                dest.doors[0] = 0;
+                dest.doors[0] = 43;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 38;
+                dest.doors[3] = 37;
                 break;
 
             case (int)Room.
         cave1:
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[2] = 44;
+                dest.doors[3] = 42;
                 break;
 
             case (int)Room.
         cave2:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 45;
+                dest.doors[1] = 43;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
@@ -464,7 +464,7 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 44;
                 break;
 
             case (int)Room.
