@@ -231,7 +231,7 @@ public class GameManager : MonoBehaviour
         mainStreetPlazaGate:
                 dest.doors[0] = 15;
                 dest.doors[1] = 22;
-                dest.doors[2] = 0;
+                dest.doors[2] = 32;
                 dest.doors[3] = 17;
                 break;
 
@@ -341,8 +341,8 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         towerOffice:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 31;
+                dest.doors[1] = 28;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
@@ -352,55 +352,65 @@ public class GameManager : MonoBehaviour
                 dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[3] = 30;
                 break;
+
+
 
             case (int)Room.
         woodsEntrance:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
+                dest.doors[0] = 33;
+                dest.doors[1] = 16;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
 
+        // NOTE: The many doors back to room 32 throughout all
+        // the areas in the woods is a puzzle in itself
+        // This is supposed to confuse the player, as these woods
+        // have been enchanted by Sofia, the witch.
+
+        // The player has to learn the correct sequence to reach the shack
+        // EAST, SOUTH, NORTH, EAST, EAST.
+
             case (int)Room.
         woods1:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 32;
+                dest.doors[1] = 32;
+                dest.doors[2] = 34;
+                dest.doors[3] = 32;
                 break;
 
             case (int)Room.
         woods2:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 32;
+                dest.doors[1] = 32;
+                dest.doors[2] = 32;
+                dest.doors[3] = 35;
                 break;
 
             case (int)Room.
         woods3:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 36;
+                dest.doors[1] = 32;
+                dest.doors[2] = 32;
+                dest.doors[3] = 32;
                 break;
 
             case (int)Room.
         woods4:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 32;
+                dest.doors[1] = 32;
+                dest.doors[2] = 37;
+                dest.doors[3] = 32;
                 break;
 
             case (int)Room.
         woods5:
-                dest.doors[0] = 0;
-                dest.doors[1] = 0;
-                dest.doors[2] = 0;
-                dest.doors[3] = 0;
+                dest.doors[0] = 32;
+                dest.doors[1] = 32;
+                dest.doors[2] = 38;
+                dest.doors[3] = 32;
                 break;
 
             case (int)Room.
