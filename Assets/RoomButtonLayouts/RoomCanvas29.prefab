@@ -223,6 +223,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f00540057d7fdd542936aa09b5d53170,
         type: 3}
+    - target: {fileID: 5185272302957256304, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: id
+      value: 26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a293dad845b3889439c58c7241adb248, type: 3}
 --- !u!224 &426341989880880453 stripped
@@ -242,6 +247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Clue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577052209412827, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
@@ -354,6 +364,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3ae26e3875013cc43966893d22bd2dd3,
         type: 3}
+    - target: {fileID: 5185272302957256304, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: id
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a293dad845b3889439c58c7241adb248, type: 3}
 --- !u!224 &5425993186032387991 stripped

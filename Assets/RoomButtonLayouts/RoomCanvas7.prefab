@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4944508222077973455}
   - component: {fileID: 4944508222077989289}
   m_Layer: 5
-  m_Name: RoomCanvas3
+  m_Name: RoomCanvas7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,7 +184,7 @@ PrefabInstance:
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 370
       objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
@@ -215,6 +215,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577052566634073, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3c8860bb408c2e6419bc092e8e2a7e53,
+        type: 3}
+    - target: {fileID: 5185272302957256304, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: id
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a293dad845b3889439c58c7241adb248, type: 3}
