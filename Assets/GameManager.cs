@@ -231,7 +231,7 @@ public class GameManager : MonoBehaviour
         mainStreetPlazaGate:
                 dest.doors[0] = 15;
                 dest.doors[1] = 22;
-                dest.doors[2] = 32;
+                dest.doors[2] = 0;
                 dest.doors[3] = 17;
                 break;
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4944508222077973455}
   - component: {fileID: 4944508222077989289}
   m_Layer: 5
-  m_Name: RoomCanvas3
+  m_Name: RoomCanvas15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,6 +106,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4944508222046009915}
     m_Modifications:
+    - target: {fileID: 1099577051921640672, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577051921640673, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 87.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577051921640674, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577051921640674, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577051921640674, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099577051921640674, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Text
+      value: "Mr. Roberts means \r\nserious business!\r\n\rBUY HIS \r\nPRODUCTS\u2026OR
+        ELSE!\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412827, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
       propertyPath: m_Name
@@ -174,17 +205,17 @@ PrefabInstance:
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 190
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 250
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 1099577052209412836, guid: a293dad845b3889439c58c7241adb248,
         type: 3}
@@ -216,6 +247,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1099577052566634073, guid: a293dad845b3889439c58c7241adb248,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 791cfa95b97f09b418b3f7f168adce42,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a293dad845b3889439c58c7241adb248, type: 3}
 --- !u!224 &5425993186032387991 stripped
