@@ -6,6 +6,7 @@ public class Clue : MonoBehaviour
 {
 
     public int id;
+    public bool menuScreenVersion;
 
     // Start is called before the first frame update
     void Start()
