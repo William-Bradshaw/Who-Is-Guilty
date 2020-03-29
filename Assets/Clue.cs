@@ -48,4 +48,15 @@ public class Clue : MonoBehaviour
 
 
     }
+
+    public void collectClue()
+    {
+
+        // set clue as found
+        GlobalGameManager.clueFlags[id] = true;
+
+        // remove clue from screen
+        Destroy(gameObject);
+
+    }
 }

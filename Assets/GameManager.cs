@@ -73,6 +73,8 @@ public class GameManager : MonoBehaviour
     public bool[] eventFlags;
     public bool[] clueFlags;
 
+    private GameObject clueToDestroy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -526,6 +528,13 @@ public class GameManager : MonoBehaviour
     {
         currentRoom = (Room)currentDestinationList.doors[3];
         Debug.Log("Travel south to room " + currentDestinationList.doors[3]);
+
+    }
+
+    public void clueButtonClicked()
+    {
+        
+
 
     }
 
