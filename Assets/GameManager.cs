@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
     public Room currentRoom = Room.frontDoor;
 
     public bool[] eventFlags;
+    public bool[] clueFlags;
 
     // Start is called before the first frame update
     void Start()
@@ -101,7 +102,7 @@ public class GameManager : MonoBehaviour
             case (int)Room.
 
         debug:
-                dest.doors[0] = 1;
+                dest.doors[0] = 0;
                 dest.doors[1] = 0;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
