@@ -49,12 +49,12 @@ public class GameManager : MonoBehaviour
         towerCloset,
         towerOffice,
         glassBridge,
-        woodsEntrance,
-        woods1,
-        woods2,
-        woods3,
-        woods4,
-        woods5,
+        woodsEntrance, // id32 - Mr. Davids
+        woods1, // id33 - Lily
+        woods2, // id34 - Oliver
+        woods3, // id35 - Monica
+        woods4, // id36 - Agatha
+        woods5, // id37 - blank interview canvas
         outsideShack,
         shack1,
         shack2,
@@ -362,11 +362,19 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         woodsEntrance:
-                dest.doors[0] = 33;
-                dest.doors[1] = 16;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
                 dest.doors[2] = 0;
                 dest.doors[3] = 0;
                 break;
+
+        
+        // IMPORTANT NOTE: THE WOODS HAVE BEEN TAKEN OUT OF THE GAME
+        // THESE ARE NOW RESERVED FOR SUSPECT INTERVIEWS.
+        
+        // The previous idea for the puzzle of navigating the woods
+        // can be added to the idea list in the GDD.
+
 
         // NOTE: The many doors back to room 32 throughout all
         // the areas in the woods is a puzzle in itself
@@ -378,42 +386,42 @@ public class GameManager : MonoBehaviour
 
             case (int)Room.
         woods1:
-                dest.doors[0] = 32;
-                dest.doors[1] = 32;
-                dest.doors[2] = 34;
-                dest.doors[3] = 32;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
+                dest.doors[2] = 0;
+                dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         woods2:
-                dest.doors[0] = 32;
-                dest.doors[1] = 32;
-                dest.doors[2] = 32;
-                dest.doors[3] = 35;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
+                dest.doors[2] = 0;
+                dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         woods3:
-                dest.doors[0] = 36;
-                dest.doors[1] = 32;
-                dest.doors[2] = 32;
-                dest.doors[3] = 32;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
+                dest.doors[2] = 0;
+                dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         woods4:
-                dest.doors[0] = 32;
-                dest.doors[1] = 32;
-                dest.doors[2] = 37;
-                dest.doors[3] = 32;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
+                dest.doors[2] = 0;
+                dest.doors[3] = 0;
                 break;
 
             case (int)Room.
         woods5:
-                dest.doors[0] = 32;
-                dest.doors[1] = 32;
-                dest.doors[2] = 38;
-                dest.doors[3] = 32;
+                dest.doors[0] = 0;
+                dest.doors[1] = 0;
+                dest.doors[2] = 0;
+                dest.doors[3] = 0;
                 break;
 
             case (int)Room.

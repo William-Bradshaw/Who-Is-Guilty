@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154241b570b255242afef6086d60a221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueName: Interview_Davids
+  dialogueName: Interview_Monica
 --- !u!1 &4944508222067719689
 GameObject:
   m_ObjectHideFlags: 0
@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 4944508222077973455}
   - component: {fileID: 4944508222077989289}
   m_Layer: 5
-  m_Name: InterviewCanvas0
+  m_Name: InterviewCanvas3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +153,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1bbab55750cc8eb4595cd20dfde546b2,
+      objectReference: {fileID: 21300000, guid: c85be4e29c71f3342b72269c1fdaafb8,
         type: 3}
     - target: {fileID: 7557369347328862017, guid: 9e5a69acb6caaff4daacd6f6b24ce527,
         type: 3}

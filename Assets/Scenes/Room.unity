@@ -5196,7 +5196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -78.22876
     y: -35.018547
-    width: 130.29091
+    width: 135.9144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5257,31 +5257,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936094
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  text: Why did you speak to Sofia?
-  description: 
-  targetBlock: {fileID: 1569936114}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &1569936095
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5307,64 +5282,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936096
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: So what''s this all about, anyway?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1569936097
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Let''s just get this over with...'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1569936098
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5446,7 +5363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -225.79675
     y: -37.166416
-    width: 126.27636
+    width: 131.61868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5513,7 +5430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.973694
     y: -28.574974
-    width: 128.95273
+    width: 134.48248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5628,7 +5545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.3004
     y: -108.76175
-    width: 142.33453
+    width: 148.80156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5684,7 +5601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.8357
     y: -114.489334
-    width: 123.6
+    width: 128.75487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5744,7 +5661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -231.53613
     y: 135.37848
-    width: 149.02545
+    width: 155.96109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5800,18 +5717,6 @@ MonoBehaviour:
 --- !u!114 &1569936113 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
-    type: 3}
-  m_PrefabInstance: {fileID: 3575179711673772534}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1569936114 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
     type: 3}
   m_PrefabInstance: {fileID: 3575179711673772534}
   m_PrefabAsset: {fileID: 0}
@@ -6022,7 +5927,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -63.380432
     y: 136.04759
-    width: 120
+    width: 121.59533
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6103,8 +6008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 612.9383
-    y: 698.95874
+    x: 608.9237
+    y: 700.29694
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6113,7 +6018,8 @@ MonoBehaviour:
   blockName: Agatha_D
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936211}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936126
 MonoBehaviour:
@@ -6131,9 +6037,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
-      years now. She''s rented retail space from me for a while, like most other business-owners
-      in this town.'
+    stringVal: 'agatha: I have know Sofia for about 3 years. I would say I first met
+      her right about when she moved into that house she lived in.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6188,7 +6093,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 616.85333
-    y: 560.83813
+    y: 562.17633
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6197,7 +6102,8 @@ MonoBehaviour:
   blockName: Agatha_B
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936209}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936129
 MonoBehaviour:
@@ -6214,7 +6120,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 619.28613
-    y: 489.76917
+    y: 492.44553
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6223,7 +6129,8 @@ MonoBehaviour:
   blockName: Agatha_A
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936210}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936130
 MonoBehaviour:
@@ -6325,18 +6232,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936134 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
-    type: 3}
-  m_PrefabInstance: {fileID: 3575179711673772534}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1569936135
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6362,64 +6257,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936136
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 123
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Let''s just get this over with...'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1569936137
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 122
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: So what''s this all about, anyway?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1569936138
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6434,9 +6271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 400.27606
-    y: 493.75287
-    width: 145.01091
+    x: 398.93787
+    y: 489.6446
+    width: 151.66537
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6445,8 +6282,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1569936137}
-  - {fileID: 1569936136}
   - {fileID: 1569936135}
   - {fileID: 1569936133}
   - {fileID: 1569936132}
@@ -6770,64 +6605,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936151
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 111
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Let''s just get this over with...'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1569936152
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 110
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: So what''s this all about, anyway?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1569936153
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6843,8 +6620,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 909.9433
-    y: 200.99364
-    width: 145.01091
+    y: 205.28935
+    width: 151.66537
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6853,8 +6630,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1569936152}
-  - {fileID: 1569936151}
   - {fileID: 1569936150}
   - {fileID: 1569936149}
   - {fileID: 1569936148}
@@ -7178,64 +6953,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936166
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 99
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Let''s just get this over with...'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1569936167
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 98
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: So what''s this all about, anyway?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1569936168
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7252,7 +6969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 419.2802
     y: 183.12068
-    width: 138.32
+    width: 144.50583
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7261,8 +6978,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1569936167}
-  - {fileID: 1569936166}
   - {fileID: 1569936165}
   - {fileID: 1569936164}
   - {fileID: 1569936163}
@@ -7586,64 +7301,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1569936181
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 87
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Let''s just get this over with...'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1569936182
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 86
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'mrdavids: So what''s this all about, anyway?'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1569936183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7660,7 +7317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 812.8087
     y: -112.55339
-    width: 124.93818
+    width: 130.18677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7669,39 +7326,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1569936182}
-  - {fileID: 1569936181}
   - {fileID: 1569936180}
   - {fileID: 1569936179}
   - {fileID: 1569936178}
   - {fileID: 1569936177}
   - {fileID: 1569936176}
   suppressAllAutoSelections: 0
---- !u!114 &1569936184
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569936084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 84
-  indentLevel: 0
-  text: We have no more questions for you...
-  description: 
-  targetBlock: {fileID: 1569936134}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &1569936185
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7901,7 +7531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 828.4208
     y: 491.91245
-    width: 136.98181
+    width: 143.07393
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7960,7 +7590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1560.291
     y: 662.79205
-    width: 139.65817
+    width: 145.93774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7986,7 +7616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1567.8002
     y: 593.6983
-    width: 147.68727
+    width: 154.52917
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8012,7 +7642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1572.3077
     y: 488.55566
-    width: 139.65817
+    width: 145.93774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8038,7 +7668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1291.96
     y: 587.21735
-    width: 161.06909
+    width: 168.84825
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8065,7 +7695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1293.4622
     y: 660.81696
-    width: 179.80363
+    width: 188.89494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8091,7 +7721,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1283.915
     y: 524.6048
-    width: 226.64
+    width: 239.01167
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8117,7 +7747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1277.9072
     y: 466.02515
-    width: 201.21454
+    width: 211.80545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8143,7 +7773,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 808.3662
     y: 622.05615
-    width: 177.12727
+    width: 186.03113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8339,6 +7969,99 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1569936209
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "agatha: I didn't really have a reason for speaking to her... in fact
+      she was the one who bothered me! \nShe was asking some nonsense about how my
+      day was and if I was excited for the upcoming fall fair, like I was some kind
+      of naive child..."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936210
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 193
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "agatha: I spoke to Sofia... I'd say about 6 in the evening the day
+      before she was found dead. \nI was going for my evening walk when I met her
+      on the sidewalk."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936211
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "agatha: Me and Sofia hardly know each other, really. \nThe only thing
+      we have in common is living on the same street. Hardly a reason to be \"FRIENDS\"."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!1 &1571344970
 GameObject:
   m_ObjectHideFlags: 0
@@ -10561,7 +10284,7 @@ PrefabInstance:
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
       propertyPath: currentRoom
-      value: 12
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
@@ -10660,12 +10383,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 467.76813
+      value: 466.3362
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10686,12 +10409,12 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 1569936096}
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1569936097}
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.data[2]
@@ -10711,12 +10434,12 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1569936094}
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1569936184}
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863235, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.size
@@ -10770,7 +10493,7 @@ PrefabInstance:
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -115.82471
+      value: -114.48653
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -11210,37 +10933,37 @@ PrefabInstance:
         type: 3}
       propertyPath: roomBackgrounds.Array.data[32]
       value: 
-      objectReference: {fileID: 21300000, guid: 31a4fc5cd14719e44b346bc7812c792f,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[34]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[33]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[35]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[36]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomBackgrounds.Array.data[37]
       value: 
-      objectReference: {fileID: 21300000, guid: a90bff9ce68417a40b7f69bd17040925,
+      objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
@@ -11644,37 +11367,37 @@ PrefabInstance:
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[32]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: f2e8de0aee4712e4e83cf37f1450126f,
+      objectReference: {fileID: 4944508222067719689, guid: bc82d91998d313549ab90101094f14d2,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[33]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: b14a63ce9aa4a8445a7cc12411c329a1,
+      objectReference: {fileID: 4944508222067719689, guid: 22d105daa10bf7b43882186c2540907a,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[34]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: 6b1da547724d6d749942a302fabdbd53,
+      objectReference: {fileID: 4944508222067719689, guid: 9ae9aa73ebaa41c4bae9ac064ce5f138,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[35]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: 723f3f08864aa384d861b12d8bcff4cc,
+      objectReference: {fileID: 4944508222067719689, guid: c281f53199c38bd4e83ec26507679b0c,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[36]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: f554c0478ce52f64db935adedb9bcca3,
+      objectReference: {fileID: 4944508222067719689, guid: 1720a1c72d8ed4f4192a8853b457fb7a,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: roomCanvasLayouts.Array.data[37]
       value: 
-      objectReference: {fileID: 4944508222067719689, guid: a4351f80a4228384283f67cdc16ae675,
+      objectReference: {fileID: 4944508222067719689, guid: 0b0752b12ede57c4ebf431616359d917,
         type: 3}
     - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
