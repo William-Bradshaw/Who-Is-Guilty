@@ -5138,18 +5138,36 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &1569936089 stripped
+--- !u!114 &1569936089
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3575179710556863279, guid: 2b317b682eb6d2e469edf31ee6441ad8,
-    type: 3}
-  m_PrefabInstance: {fileID: 3575179711673772534}
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569936084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: You were mostly right. However, at least once person got away with
+      murder...
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1569936090 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3575179710556863276, guid: 2b317b682eb6d2e469edf31ee6441ad8,
@@ -5178,7 +5196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -78.22876
     y: -35.018547
-    width: 130
+    width: 130.29091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5428,7 +5446,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -225.79675
     y: -37.166416
-    width: 125.2
+    width: 126.27636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5495,7 +5513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.973694
     y: -28.574974
-    width: 128.4
+    width: 128.95273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5610,7 +5628,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.3004
     y: -108.76175
-    width: 142.8
+    width: 142.33453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5666,7 +5684,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.8357
     y: -114.489334
-    width: 125.2
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5726,7 +5744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -231.53613
     y: 135.37848
-    width: 150.8
+    width: 149.02545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6058,14 +6076,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 809.5763
-    y: 691.779
-    width: 158.8
+    x: 414.37622
+    y: 602.17896
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 28
-  blockName: Davids_End (Copy)3
+  itemId: 183
+  blockName: Agatha_End
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6085,14 +6103,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1008.1381
-    y: 788.5587
-    width: 147.6
+    x: 612.9383
+    y: 698.95874
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 27
-  blockName: Davids_D (Copy)3
+  itemId: 182
+  blockName: Agatha_D
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -6142,14 +6160,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1016.8459
-    y: 720.1839
-    width: 147.6
+    x: 621.64606
+    y: 630.58386
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 26
-  blockName: Davids_C (Copy)3
+  itemId: 181
+  blockName: Agatha_C
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6169,14 +6187,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1012.05316
-    y: 650.4381
-    width: 147.6
+    x: 616.85333
+    y: 560.83813
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
-  blockName: Davids_B (Copy)3
+  itemId: 180
+  blockName: Agatha_B
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -6195,14 +6213,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1019.2858
-    y: 580.96924
-    width: 147.6
+    x: 619.28613
+    y: 489.76917
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 24
-  blockName: Davids_A (Copy)3
+  itemId: 179
+  blockName: Agatha_A
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -6223,7 +6241,7 @@ MonoBehaviour:
   indentLevel: 0
   text: We have no more questions for you...
   description: 
-  targetBlock: {fileID: 1569936134}
+  targetBlock: {fileID: 1569936124}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6248,7 +6266,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Why did you speak to Sofia?
   description: 
-  targetBlock: {fileID: 1569936114}
+  targetBlock: {fileID: 1569936128}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6273,7 +6291,7 @@ MonoBehaviour:
   indentLevel: 0
   text: When was the last time you visited Sofia?
   description: 
-  targetBlock: {fileID: 1569936115}
+  targetBlock: {fileID: 1569936129}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6298,7 +6316,7 @@ MonoBehaviour:
   indentLevel: 0
   text: For how long have you known Sofia?
   description: 
-  targetBlock: {fileID: 1569936113}
+  targetBlock: {fileID: 1569936127}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6335,7 +6353,7 @@ MonoBehaviour:
   indentLevel: 0
   text: How would you describe your relationship with Sofia?
   description: 
-  targetBlock: {fileID: 1569936112}
+  targetBlock: {fileID: 1569936125}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6416,13 +6434,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 795.47614
-    y: 583.35297
-    width: 147.6
+    x: 400.27606
+    y: 493.75287
+    width: 145.01091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 23
+  itemId: 178
   blockName: Interview_Agatha
   description: 
   eventHandler: {fileID: 0}
@@ -6478,14 +6496,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 921.1422
-    y: 338.76526
-    width: 147.6
+    x: 983.9461
+    y: 342.70264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 28
-  blockName: Interview_Monica
+  itemId: 177
+  blockName: Monica_End
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6505,13 +6523,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1119.704
-    y: 435.5449
+    x: 1140.8718
+    y: 382.32144
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 27
+  itemId: 176
   blockName: Monica_D
   description: 
   eventHandler: {fileID: 0}
@@ -6562,13 +6580,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1128.4119
-    y: 367.1701
+    x: 1143.1799
+    y: 317.14667
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 26
+  itemId: 175
   blockName: Monica_C
   description: 
   eventHandler: {fileID: 0}
@@ -6589,13 +6607,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1123.6191
-    y: 297.42435
+    x: 1143.1871
+    y: 252.20093
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 174
   blockName: Monica_B
   description: 
   eventHandler: {fileID: 0}
@@ -6615,13 +6633,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1130.8518
-    y: 227.95541
+    x: 1137.6201
+    y: 189.13205
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 24
+  itemId: 173
   blockName: Monica_A
   description: 
   eventHandler: {fileID: 0}
@@ -6643,7 +6661,7 @@ MonoBehaviour:
   indentLevel: 0
   text: We have no more questions for you...
   description: 
-  targetBlock: {fileID: 1569936134}
+  targetBlock: {fileID: 1569936140}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6668,7 +6686,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Why did you speak to Sofia?
   description: 
-  targetBlock: {fileID: 1569936114}
+  targetBlock: {fileID: 1569936144}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6693,7 +6711,7 @@ MonoBehaviour:
   indentLevel: 0
   text: When was the last time you visited Sofia?
   description: 
-  targetBlock: {fileID: 1569936115}
+  targetBlock: {fileID: 1569936145}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6718,7 +6736,7 @@ MonoBehaviour:
   indentLevel: 0
   text: For how long have you known Sofia?
   description: 
-  targetBlock: {fileID: 1569936113}
+  targetBlock: {fileID: 1569936143}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6743,7 +6761,7 @@ MonoBehaviour:
   indentLevel: 0
   text: How would you describe your relationship with Sofia?
   description: 
-  targetBlock: {fileID: 1569936112}
+  targetBlock: {fileID: 1569936141}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6824,13 +6842,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 907.0421
-    y: 230.33916
-    width: 147.6
+    x: 909.9433
+    y: 200.99364
+    width: 145.01091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 23
+  itemId: 172
   blockName: Interview_Monica
   description: 
   eventHandler: {fileID: 0}
@@ -6886,13 +6904,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 436.5803
-    y: 358.74692
+    x: 446.1803
+    y: 339.54688
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 28
+  itemId: 171
   blockName: Oliver_End
   description: 
   eventHandler: {fileID: 0}
@@ -6913,13 +6931,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 635.14215
-    y: 455.52673
+    x: 627.142
+    y: 394.7266
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 27
+  itemId: 170
   blockName: Oliver_D
   description: 
   eventHandler: {fileID: 0}
@@ -6970,13 +6988,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 643.8499
-    y: 387.15182
+    x: 629.4498
+    y: 327.9517
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 26
+  itemId: 169
   blockName: Oliver_C
   description: 
   eventHandler: {fileID: 0}
@@ -6997,13 +7015,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 639.0573
-    y: 317.40598
+    x: 627.8573
+    y: 255.0058
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 168
   blockName: Oliver_B
   description: 
   eventHandler: {fileID: 0}
@@ -7023,13 +7041,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 646.28986
-    y: 247.93698
+    x: 615.88965
+    y: 195.13704
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 24
+  itemId: 167
   blockName: Oliver_A
   description: 
   eventHandler: {fileID: 0}
@@ -7051,7 +7069,7 @@ MonoBehaviour:
   indentLevel: 0
   text: We have no more questions for you...
   description: 
-  targetBlock: {fileID: 1569936134}
+  targetBlock: {fileID: 1569936155}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7076,7 +7094,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Why did you speak to Sofia?
   description: 
-  targetBlock: {fileID: 1569936114}
+  targetBlock: {fileID: 1569936159}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7101,7 +7119,7 @@ MonoBehaviour:
   indentLevel: 0
   text: When was the last time you visited Sofia?
   description: 
-  targetBlock: {fileID: 1569936115}
+  targetBlock: {fileID: 1569936160}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7126,7 +7144,7 @@ MonoBehaviour:
   indentLevel: 0
   text: For how long have you known Sofia?
   description: 
-  targetBlock: {fileID: 1569936113}
+  targetBlock: {fileID: 1569936158}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7151,7 +7169,7 @@ MonoBehaviour:
   indentLevel: 0
   text: How would you describe your relationship with Sofia?
   description: 
-  targetBlock: {fileID: 1569936112}
+  targetBlock: {fileID: 1569936156}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7232,13 +7250,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 422.4802
-    y: 250.32071
-    width: 142.8
+    x: 419.2802
+    y: 183.12068
+    width: 138.32
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 23
+  itemId: 166
   blockName: Interview_Oliver
   description: 
   eventHandler: {fileID: 0}
@@ -7294,13 +7312,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 882.8435
-    y: -19.244091
+    x: 825.24365
+    y: -22.444092
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 28
+  itemId: 165
   blockName: Lily_End
   description: 
   eventHandler: {fileID: 0}
@@ -7321,13 +7339,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1061.4233
-    y: 102.51278
+    x: 1003.82385
+    y: 99.31278
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 27
+  itemId: 164
   blockName: Lily_D
   description: 
   eventHandler: {fileID: 0}
@@ -7378,13 +7396,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1060.1401
-    y: 42.46396
+    x: 1002.54065
+    y: 39.26396
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 26
+  itemId: 163
   blockName: Lily_C
   description: 
   eventHandler: {fileID: 0}
@@ -7405,13 +7423,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1063.6733
-    y: -32.27727
+    x: 1006.07385
+    y: -35.47727
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 162
   blockName: Lily_B
   description: 
   eventHandler: {fileID: 0}
@@ -7431,13 +7449,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1062.5801
-    y: -105.07654
+    x: 1004.9806
+    y: -108.276535
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 24
+  itemId: 161
   blockName: Lily_A
   description: 
   eventHandler: {fileID: 0}
@@ -7640,13 +7658,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 870.40857
-    y: -109.35339
-    width: 128.4
+    x: 812.8087
+    y: -112.55339
+    width: 124.93818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 23
+  itemId: 160
   blockName: Interview_Lily
   description: 
   eventHandler: {fileID: 0}
@@ -7713,6 +7731,614 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1569936186
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 148
+  indentLevel: 0
+  text: Interview Mr. Davids
+  description: 
+  targetBlock: {fileID: 3575179711673772535}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936187
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  text: Interview Monica
+  description: 
+  targetBlock: {fileID: 1569936153}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936188
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  text: Interview Agatha
+  description: 
+  targetBlock: {fileID: 1569936138}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936189
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  text: Interview Oliver
+  description: 
+  targetBlock: {fileID: 1569936168}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936190
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  text: Interview Lily
+  description: 
+  targetBlock: {fileID: 1569936183}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936191
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: What do you want to do?
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936192
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 828.4208
+    y: 491.91245
+    width: 136.98181
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 184
+  blockName: Interview_Menu
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936191}
+  - {fileID: 1569936190}
+  - {fileID: 1569936189}
+  - {fileID: 1569936188}
+  - {fileID: 1569936187}
+  - {fileID: 1569936186}
+  - {fileID: 1569936208}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936193
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1547.3069
+    y: 734.4166
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 188
+  blockName: BonusScene
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936194
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1560.291
+    y: 662.79205
+    width: 139.65817
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 154
+  blockName: CompleteCredits
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936195
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1567.8002
+    y: 593.6983
+    width: 147.68727
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 153
+  blockName: IncompleteCredits
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936196
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1572.3077
+    y: 488.55566
+    width: 139.65817
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 152
+  blockName: GameOverScene
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936197
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1291.96
+    y: 587.21735
+    width: 161.06909
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 187
+  blockName: Ending_Partial_Truth
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936089}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936198
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1293.4622
+    y: 660.81696
+    width: 179.80363
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 186
+  blockName: Ending_Complete_Truth
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936199
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1283.915
+    y: 524.6048
+    width: 226.64
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 151
+  blockName: Ending_False_Accusations_Some
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936200
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1277.9072
+    y: 466.02515
+    width: 201.21454
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 150
+  blockName: Ending_Incorrect_Choice_All
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936201
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 808.3662
+    y: 622.05615
+    width: 177.12727
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 185
+  blockName: Confirm_Interview_End
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936207}
+  - {fileID: 1569936206}
+  - {fileID: 1569936205}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936202
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1024.396
+    y: 497.71948
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 149
+  blockName: DecideGuilt
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936204}
+  - {fileID: 1569936203}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936203
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  text: Wait. I still need to interview the suspects more.
+  description: 
+  targetBlock: {fileID: 1569936192}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936204
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  text: There's no going back! I'm ready to accuse...
+  description: 
+  targetBlock: {fileID: 1569936202}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936205
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  text: Wait. I still need to interview the suspects more.
+  description: 
+  targetBlock: {fileID: 1569936192}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936206
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+  text: There's no going back! I'm ready to accuse...
+  description: 
+  targetBlock: {fileID: 1569936202}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936207
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 156
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: Careful! Once you decide to make your final accusations, you won't
+      be able to interview the suspects again without restarting the interview process.
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936208
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  indentLevel: 0
+  text: Make an Accusation!
+  description: 
+  targetBlock: {fileID: 1569936201}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1571344970
 GameObject:
   m_ObjectHideFlags: 0
@@ -10039,12 +10665,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 322.16785
+      value: 467.76813
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -100.77127
+      value: -107.17126
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10124,12 +10750,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 535.4146
+      value: 652.21423
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -42.01193
+      value: -58.011925
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10139,12 +10765,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 522.6652
+      value: 639.46484
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -103.155045
+      value: -115.82471
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10154,12 +10780,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 521.5085
+      value: 654.308
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 107.76475
+      value: 93.36476
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10174,12 +10800,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 548.533
+      value: 646.13275
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 46.050568
+      value: 7.650564
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10299,12 +10925,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 324.61185
+      value: 460.61224
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 7.6547394
+      value: -21.145262
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10434,7 +11060,7 @@ PrefabInstance:
     - target: {fileID: 3575179710556863276, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863276, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -10445,7 +11071,7 @@ PrefabInstance:
         type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 1569936089}
+      objectReference: {fileID: 1569936202}
     - target: {fileID: 3575179710556863276, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: selectedCommands.Array.data[0]
@@ -10526,6 +11152,18 @@ PrefabInstance:
     - {fileID: 3575179710556863264, guid: 2b317b682eb6d2e469edf31ee6441ad8, type: 3}
     - {fileID: 3575179710556863267, guid: 2b317b682eb6d2e469edf31ee6441ad8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2b317b682eb6d2e469edf31ee6441ad8, type: 3}
+--- !u!114 &3575179711673772535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3575179711673772534}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5147325913698353627
 PrefabInstance:
   m_ObjectHideFlags: 0
