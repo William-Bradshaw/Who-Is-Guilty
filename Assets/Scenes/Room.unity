@@ -5178,7 +5178,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -78.22876
     y: -35.018547
-    width: 135.9144
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5206,7 +5206,7 @@ MonoBehaviour:
   text: For how long have you known Sofia?
   description: 
   targetBlock: {fileID: 1569936113}
-  hideIfVisited: 1
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5231,7 +5231,7 @@ MonoBehaviour:
   text: How would you describe your relationship with Sofia?
   description: 
   targetBlock: {fileID: 1569936112}
-  hideIfVisited: 1
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5256,7 +5256,7 @@ MonoBehaviour:
   text: Why did you speak to Sofia?
   description: 
   targetBlock: {fileID: 1569936114}
-  hideIfVisited: 1
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5281,7 +5281,7 @@ MonoBehaviour:
   text: When was the last time you visited Sofia?
   description: 
   targetBlock: {fileID: 1569936115}
-  hideIfVisited: 1
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5428,7 +5428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -225.79675
     y: -37.166416
-    width: 131.61868
+    width: 125.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5495,11 +5495,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.973694
     y: -28.574974
-    width: 134.48248
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 49
+  itemId: 74
   blockName: NPC_Janitor_1
   description: 
   eventHandler: {fileID: 0}
@@ -5557,7 +5557,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 49
+  itemId: 75
   blockName: NPC_Lydia
   description: 
   eventHandler: {fileID: 0}
@@ -5610,11 +5610,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.3004
     y: -108.76175
-    width: 148.80156
+    width: 142.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 49
+  itemId: 76
   blockName: NPC_MrDavids_1
   description: 
   eventHandler: {fileID: 0}
@@ -5666,11 +5666,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.8357
     y: -114.489334
-    width: 128.75487
+    width: 125.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 49
+  itemId: 77
   blockName: NPC_Oliver_1
   description: 
   eventHandler: {fileID: 0}
@@ -5726,11 +5726,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -231.53613
     y: 135.37848
-    width: 155.96109
+    width: 150.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 37
+  itemId: 78
   blockName: NPC_OfficeWorker
   description: 
   eventHandler: {fileID: 0}
@@ -5835,7 +5835,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 30
+  itemId: 79
   blockName: NPC_Mark
   description: 
   eventHandler: {fileID: 0}
@@ -5892,7 +5892,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 49
+  itemId: 80
   blockName: NPC_Jane
   description: 
   eventHandler: {fileID: 0}
@@ -5949,7 +5949,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 37
+  itemId: 81
   blockName: NPC_Bruce
   description: 
   eventHandler: {fileID: 0}
@@ -6004,17 +6004,1715 @@ MonoBehaviour:
     serializedVersion: 2
     x: -63.380432
     y: 136.04759
-    width: 121.59533
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 30
+  itemId: 82
   blockName: NPC_Agatha
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1569936121}
   suppressAllAutoSelections: 0
+--- !u!114 &1569936123
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936124
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 809.5763
+    y: 691.779
+    width: 158.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 28
+  blockName: Davids_End (Copy)3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936123}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936125
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1008.1381
+    y: 788.5587
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 27
+  blockName: Davids_D (Copy)3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936126
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
+      years now. She''s rented retail space from me for a while, like most other business-owners
+      in this town.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936127
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1016.8459
+    y: 720.1839
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: Davids_C (Copy)3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936126}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936128
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1012.05316
+    y: 650.4381
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 25
+  blockName: Davids_B (Copy)3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936129
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1019.2858
+    y: 580.96924
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 24
+  blockName: Davids_A (Copy)3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936130
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  text: We have no more questions for you...
+  description: 
+  targetBlock: {fileID: 1569936134}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936131
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  text: Why did you speak to Sofia?
+  description: 
+  targetBlock: {fileID: 1569936114}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936132
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  text: When was the last time you visited Sofia?
+  description: 
+  targetBlock: {fileID: 1569936115}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936133
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  text: For how long have you known Sofia?
+  description: 
+  targetBlock: {fileID: 1569936113}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3575179711673772534}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1569936135
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  text: How would you describe your relationship with Sofia?
+  description: 
+  targetBlock: {fileID: 1569936112}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936136
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Let''s just get this over with...'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936137
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: So what''s this all about, anyway?'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936138
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 795.47614
+    y: 583.35297
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 23
+  blockName: Interview_Agatha
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936137}
+  - {fileID: 1569936136}
+  - {fileID: 1569936135}
+  - {fileID: 1569936133}
+  - {fileID: 1569936132}
+  - {fileID: 1569936131}
+  - {fileID: 1569936130}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936139
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936140
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 921.1422
+    y: 338.76526
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 28
+  blockName: Interview_Monica
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936139}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936141
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1119.704
+    y: 435.5449
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 27
+  blockName: Monica_D
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936142
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
+      years now. She''s rented retail space from me for a while, like most other business-owners
+      in this town.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936143
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1128.4119
+    y: 367.1701
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: Monica_C
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936142}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936144
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1123.6191
+    y: 297.42435
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 25
+  blockName: Monica_B
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936145
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1130.8518
+    y: 227.95541
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 24
+  blockName: Monica_A
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936146
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  indentLevel: 0
+  text: We have no more questions for you...
+  description: 
+  targetBlock: {fileID: 1569936134}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936147
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 115
+  indentLevel: 0
+  text: Why did you speak to Sofia?
+  description: 
+  targetBlock: {fileID: 1569936114}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936148
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  text: When was the last time you visited Sofia?
+  description: 
+  targetBlock: {fileID: 1569936115}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936149
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  text: For how long have you known Sofia?
+  description: 
+  targetBlock: {fileID: 1569936113}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936150
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  text: How would you describe your relationship with Sofia?
+  description: 
+  targetBlock: {fileID: 1569936112}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936151
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Let''s just get this over with...'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936152
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: So what''s this all about, anyway?'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936153
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 907.0421
+    y: 230.33916
+    width: 147.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 23
+  blockName: Interview_Monica
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936152}
+  - {fileID: 1569936151}
+  - {fileID: 1569936150}
+  - {fileID: 1569936149}
+  - {fileID: 1569936148}
+  - {fileID: 1569936147}
+  - {fileID: 1569936146}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936154
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936155
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 436.5803
+    y: 358.74692
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 28
+  blockName: Oliver_End
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936154}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936156
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 635.14215
+    y: 455.52673
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 27
+  blockName: Oliver_D
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936157
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 106
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
+      years now. She''s rented retail space from me for a while, like most other business-owners
+      in this town.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936158
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 643.8499
+    y: 387.15182
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: Oliver_C
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936157}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936159
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 639.0573
+    y: 317.40598
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 25
+  blockName: Oliver_B
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936160
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 646.28986
+    y: 247.93698
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 24
+  blockName: Oliver_A
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936161
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+  text: We have no more questions for you...
+  description: 
+  targetBlock: {fileID: 1569936134}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936162
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
+  text: Why did you speak to Sofia?
+  description: 
+  targetBlock: {fileID: 1569936114}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936163
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+  text: When was the last time you visited Sofia?
+  description: 
+  targetBlock: {fileID: 1569936115}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936164
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+  text: For how long have you known Sofia?
+  description: 
+  targetBlock: {fileID: 1569936113}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936165
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
+  text: How would you describe your relationship with Sofia?
+  description: 
+  targetBlock: {fileID: 1569936112}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936166
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Let''s just get this over with...'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936167
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: So what''s this all about, anyway?'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936168
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 422.4802
+    y: 250.32071
+    width: 142.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 23
+  blockName: Interview_Oliver
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936167}
+  - {fileID: 1569936166}
+  - {fileID: 1569936165}
+  - {fileID: 1569936164}
+  - {fileID: 1569936163}
+  - {fileID: 1569936162}
+  - {fileID: 1569936161}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936169
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936170
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 882.8435
+    y: -19.244091
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 28
+  blockName: Lily_End
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936169}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936171
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1061.4233
+    y: 102.51278
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 27
+  blockName: Lily_D
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936172
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
+      years now. She''s rented retail space from me for a while, like most other business-owners
+      in this town.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936173
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1060.1401
+    y: 42.46396
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 26
+  blockName: Lily_C
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936172}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1063.6733
+    y: -32.27727
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 25
+  blockName: Lily_B
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936175
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1062.5801
+    y: -105.07654
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 24
+  blockName: Lily_A
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936176
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  indentLevel: 0
+  text: We have no more questions for you...
+  description: 
+  targetBlock: {fileID: 1569936170}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936177
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  text: Why did you speak to Sofia?
+  description: 
+  targetBlock: {fileID: 1569936174}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936178
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  indentLevel: 0
+  text: When was the last time you visited Sofia?
+  description: 
+  targetBlock: {fileID: 1569936175}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936179
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  text: For how long have you known Sofia?
+  description: 
+  targetBlock: {fileID: 1569936173}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936180
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 88
+  indentLevel: 0
+  text: How would you describe your relationship with Sofia?
+  description: 
+  targetBlock: {fileID: 1569936171}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936181
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Let''s just get this over with...'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936182
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: So what''s this all about, anyway?'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936183
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 870.40857
+    y: -109.35339
+    width: 128.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 23
+  blockName: Interview_Lily
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1569936182}
+  - {fileID: 1569936181}
+  - {fileID: 1569936180}
+  - {fileID: 1569936179}
+  - {fileID: 1569936178}
+  - {fileID: 1569936177}
+  - {fileID: 1569936176}
+  suppressAllAutoSelections: 0
+--- !u!114 &1569936184
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  indentLevel: 0
+  text: We have no more questions for you...
+  description: 
+  targetBlock: {fileID: 1569936134}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1569936185
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!1 &1571344970
 GameObject:
   m_ObjectHideFlags: 0
@@ -8336,27 +10034,27 @@ PrefabInstance:
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 311.94363
+      value: 322.16785
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -102.203186
+      value: -100.77127
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: blockName
-      value: Interview_Davids_1
+      value: Interview_Davids
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.width
-      value: 164.55252
+      value: 163.23077
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8388,6 +10086,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[5]
       value: 
       objectReference: {fileID: 1569936094}
+    - target: {fileID: 3575179710556863234, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1569936184}
     - target: {fileID: 3575179710556863235, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: commandList.Array.size
@@ -8396,12 +10099,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863235, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: -496.49628
+      value: -397.69476
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863235, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 90.51424
+      value: 69.03562
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863235, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8421,12 +10124,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 527.0888
+      value: 535.4146
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -33.686142
+      value: -42.01193
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8436,7 +10139,7 @@ PrefabInstance:
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 534.32135
+      value: 522.6652
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863237, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8451,12 +10154,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 523.17365
+      value: 521.5085
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 104.43443
+      value: 107.76475
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8471,12 +10174,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 531.8814
+      value: 548.533
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 31.7639
+      value: 46.050568
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8498,6 +10201,86 @@ PrefabInstance:
       propertyPath: commandList.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863248, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1691.804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863248, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -58.107197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863249, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1477.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863249, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 307.71548
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863250, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1691.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863250, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 56.455284
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863251, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1689.2723
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863251, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -2.411353
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863252, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1697.5282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863252, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 157.75604
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863253, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1694.9507
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863253, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 106.13628
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863254, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1693.9991
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863254, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 309.65442
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863255, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1694.3579
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863255, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 233.6821
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863256, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
@@ -8510,13 +10293,93 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
+      propertyPath: commandList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
       propertyPath: nodeRect.x
-      value: -491.57486
+      value: 324.61185
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 158.00502
+      value: 7.6547394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: blockName
+      value: Davids_End
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1569936185}
+    - target: {fileID: 3575179710556863258, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1480.4115
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863258, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -8.740104
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863259, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1480.9178
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863259, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -56.46152
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863260, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1476.6141
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863260, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 108.981346
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863261, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1474.0833
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863261, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 45.690304
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863262, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1475.3479
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863262, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 234.29776
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863263, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1475.3479
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863263, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 169.74115
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863266, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -8528,6 +10391,46 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 219976431}
+    - target: {fileID: 3575179710556863272, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1891.804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863272, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 5.1837997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863273, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1891.8037
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863273, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -56.841503
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863274, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1880.4119
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863274, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 120.37391
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863275, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 1896.8665
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575179710556863275, guid: 2b317b682eb6d2e469edf31ee6441ad8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 63.411476
+      objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863276, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: selectedCommands.Array.size
