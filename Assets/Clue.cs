@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using Lean.Gui;
+
 
 public class Clue : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class Clue : MonoBehaviour
 
     private Image clueImage;
 
+    private LeanButton clueButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +27,22 @@ public class Clue : MonoBehaviour
         GameManagerObject = GameObject.Find("GameManager");
         GlobalGameManager = GameManagerObject.GetComponent<GameManager>();
 
+        clueButton = gameObject.GetComponent<LeanButton>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (clueButton.IsInvoking())
+        {
+            if (!menuScreenVersion)
+            {
+                collectClue();
+            }
+        }
+
 
         if (menuScreenVersion)
         {

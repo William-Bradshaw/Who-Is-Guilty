@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    bool clueMenuOpened;
+
+    int roomBeforeMenuOpened;
+
     // every room has a north, south, west, and east exit potentially
     // maximum of 4 doors per room
     public class RoomDestinations
@@ -542,6 +547,18 @@ public class GameManager : MonoBehaviour
     public void clueButtonClicked()
     {
         
+        if (!clueMenuOpened)
+        {
+            roomBeforeMenuOpened = (int)currentRoom;
+            currentRoom = 0;
+
+            clueMenuOpened = true;
+        }else if (clueMenuOpened)
+        {
+            currentRoom = (Room)roomBeforeMenuOpened;
+
+            clueMenuOpened = false;
+        }
 
 
     }
