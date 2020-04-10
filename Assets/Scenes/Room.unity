@@ -269,7 +269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49470988
 GameObject:
@@ -320,7 +320,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &99753552
 GameObject:
@@ -872,7 +872,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &219976430
 GameObject:
@@ -924,7 +924,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242854494
 GameObject:
@@ -1188,6 +1188,17 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 82a1f1cb135105a4f9ccec46f03a3940, type: 3}
+  - {fileID: 21300000, guid: e27c4d9da3afb95409866a8dc6488a37, type: 3}
+  - {fileID: 21300000, guid: 6081d745d38849449a7d3487d7c8495d, type: 3}
+  - {fileID: 21300000, guid: 21d415d4197331747bdf7a7e6634a1c5, type: 3}
+  - {fileID: 21300000, guid: caa9f14a8b7c8124da7fb134e263b0b8, type: 3}
+  - {fileID: 21300000, guid: ee738ef7b7b1f2e488c48f78e16cb633, type: 3}
+  - {fileID: 21300000, guid: d5674754c1924d0439f9857eb702107b, type: 3}
+  - {fileID: 21300000, guid: ee22ae1be0eb51748b7dfc60623ff0dd, type: 3}
+  - {fileID: 21300000, guid: d30ab4c905c1ed448b951392dd98fce0, type: 3}
+  - {fileID: 21300000, guid: 877e1a0a1aaf6f342b56e3ea4c48f232, type: 3}
+  - {fileID: 21300000, guid: 6466aa62f291088408ea8a035e33705a, type: 3}
+  - {fileID: 21300000, guid: 61a241f637154d348961ea4dd00f2c1b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1203,7 +1214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361182022
 GameObject:
@@ -1312,6 +1323,18 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: e01f444f8e1e2eb48ae5db355c6ac639, type: 3}
+  - {fileID: 21300000, guid: 29d71d51529c9194ea0b81b9865ea9a0, type: 3}
+  - {fileID: 21300000, guid: 3cc17f25e63c19743a8ce9ade5bb501a, type: 3}
+  - {fileID: 21300000, guid: 17dc9c5fe15d4ff4e9c3e7a9a84691f9, type: 3}
+  - {fileID: 21300000, guid: 52165c8841bf39449bd2529ce43bf4ac, type: 3}
+  - {fileID: 21300000, guid: 8cb94dcffc23cbb44a7b039ed4464887, type: 3}
+  - {fileID: 21300000, guid: c079db5887d97bb43b2c0e6a901f20e7, type: 3}
+  - {fileID: 21300000, guid: 7f4b09b117ccc524ca5542221109bfdb, type: 3}
+  - {fileID: 21300000, guid: aa44d5ca969df124b84bb3a3e83bc4a9, type: 3}
+  - {fileID: 21300000, guid: 9c496fb614341a54b8a24fc3005843c2, type: 3}
+  - {fileID: 21300000, guid: ac060ef7ee3821d47bd2186700f2cef9, type: 3}
+  - {fileID: 21300000, guid: e18b6d0f3b5dde247a9091eaaaee3490, type: 3}
+  - {fileID: 21300000, guid: 0d407b7db4fa800479ff9b9f97e4b181, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1327,7 +1350,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392127425
 GameObject:
@@ -2216,7 +2239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &523925969
 GameObject:
@@ -3465,7 +3488,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &906486106
 GameObject:
@@ -4283,7 +4306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149326821
 GameObject:
@@ -4874,6 +4897,19 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: c85be4e29c71f3342b72269c1fdaafb8, type: 3}
+  - {fileID: 21300000, guid: ed94a38f88c66e1439841894c7953037, type: 3}
+  - {fileID: 21300000, guid: 34a4ae53294d1a04aa037e0e2b8256f0, type: 3}
+  - {fileID: 21300000, guid: ddd2e543fd22e854a84e88b050857b22, type: 3}
+  - {fileID: 21300000, guid: d120d415d3826a541a1da40bf9314c14, type: 3}
+  - {fileID: 21300000, guid: a1517d68de13d29418188ccd11bde9a2, type: 3}
+  - {fileID: 21300000, guid: be2af542b8021ef45abf18c12d27f6fb, type: 3}
+  - {fileID: 21300000, guid: 3c29c310384bee4408ca68f937e24733, type: 3}
+  - {fileID: 21300000, guid: abb7cadefdf5a6944bc28a6c316bb5f7, type: 3}
+  - {fileID: 21300000, guid: 732031b04e9624745b996f2195f33f3a, type: 3}
+  - {fileID: 21300000, guid: 25098561a777ee14cbeef9740ca7424b, type: 3}
+  - {fileID: 21300000, guid: d75d06c6874a3d741a3c310fdc04d830, type: 3}
+  - {fileID: 21300000, guid: b4ac21060b0ce6847849665f89d5b65a, type: 3}
+  - {fileID: 21300000, guid: 107b4e5df3a39214090659050987d189, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -5131,7 +5167,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1337133750
 PrefabInstance:
@@ -5364,6 +5400,30 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: fe32fe01f0fa22347bc69506ef5d499d, type: 3}
+  - {fileID: 21300000, guid: 372a06e19a982e64da4ac898e52b8e64, type: 3}
+  - {fileID: 21300000, guid: 999e10bb0f844264bb696d24bf7467d1, type: 3}
+  - {fileID: 21300000, guid: ec67278c2f75e8e49b7d7e3e8b4df813, type: 3}
+  - {fileID: 21300000, guid: f8f315b776491044c903431a4517da21, type: 3}
+  - {fileID: 21300000, guid: 93a23f69a3c7a9844ab32d813a339dde, type: 3}
+  - {fileID: 21300000, guid: c2ef315660f27fe409c74ddbf13dcbd3, type: 3}
+  - {fileID: 21300000, guid: 047c9678dbf1686478a8fb34e7370a81, type: 3}
+  - {fileID: 21300000, guid: 70ba9bf4a45cd114f95d598709aefd40, type: 3}
+  - {fileID: 21300000, guid: 2f38f24a45aa1a6479cacfaaac6079e1, type: 3}
+  - {fileID: 21300000, guid: 6991d8946a813fb4b8fe46fa7fe6d9b2, type: 3}
+  - {fileID: 21300000, guid: 89803144f1a382246badf865bb5023ef, type: 3}
+  - {fileID: 21300000, guid: 2f4d8b1f6c0c1dc4c885a60eeeb82b15, type: 3}
+  - {fileID: 21300000, guid: f6fc7b97f3038934099c64ff21ecd094, type: 3}
+  - {fileID: 21300000, guid: 34a693bfff83a324d952d0ebaaf1e337, type: 3}
+  - {fileID: 21300000, guid: f361a46bcb3445849af5ac3a6e06c034, type: 3}
+  - {fileID: 21300000, guid: 08fdd6590ef5a72488b95a4ab6f105c5, type: 3}
+  - {fileID: 21300000, guid: 802c54f4bc5ad7248828fb5b75b477a1, type: 3}
+  - {fileID: 21300000, guid: b5c472ac17a89fb4ba467a31f9d3b2f8, type: 3}
+  - {fileID: 21300000, guid: 271ee8fe169c39a4681ead8977a58d31, type: 3}
+  - {fileID: 21300000, guid: 3707da55fb70edf43b49b4aedb4b7c43, type: 3}
+  - {fileID: 21300000, guid: 43e9d8829f66cfb44ac9be0f437dcf74, type: 3}
+  - {fileID: 21300000, guid: cae3616fec33e8a48938fe1ef7a38194, type: 3}
+  - {fileID: 21300000, guid: 1ab252fab2d0b0443b90f52def8c2499, type: 3}
+  - {fileID: 21300000, guid: 055764c8ba40d76428c66200b175558a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -6419,7 +6479,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+    stringVal: 'agatha: ...
+
+      ...I hope you can bring the monster responsible for this to justice.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6446,8 +6508,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 414.37622
-    y: 602.17896
+    x: 411.5124
+    y: 602.1789
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6812,7 +6874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 398.93787
+    x: 397.50595
     y: 489.6446
     width: 151.66537
     height: 40
@@ -6845,7 +6907,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+    stringVal: 'monica: Let me know if you need to ask any more questions.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7696,8 +7758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 823.81177
-    y: -22.444092
+    x: 932.6368
+    y: -171.36238
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8538,8 +8600,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 808.3662
-    y: 622.05615
+    x: 804.07043
+    y: 603.44135
     width: 186.03113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8568,7 +8630,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1024.396
-    y: 497.71948
+    y: 519.198
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9574,18 +9636,18 @@ Transform:
   m_Children:
   - {fileID: 1249862803}
   - {fileID: 1543009226}
+  - {fileID: 344967362}
+  - {fileID: 363048562}
+  - {fileID: 2008073284}
   - {fileID: 219976432}
   - {fileID: 200693323}
-  - {fileID: 344967362}
   - {fileID: 898434163}
   - {fileID: 1146477260}
   - {fileID: 1768982101}
   - {fileID: 49470990}
   - {fileID: 1336686905}
   - {fileID: 11960868}
-  - {fileID: 2008073284}
   - {fileID: 523396810}
-  - {fileID: 363048562}
   - {fileID: 409804206}
   - {fileID: 124094682}
   - {fileID: 1705243904}
@@ -9799,7 +9861,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777689434
 GameObject:
@@ -10494,6 +10556,18 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 1bbab55750cc8eb4595cd20dfde546b2, type: 3}
+  - {fileID: 21300000, guid: c42d17dc1eabb994790ea8bc7eacb009, type: 3}
+  - {fileID: 21300000, guid: a607d83e01b921e44bb72cb8445d2329, type: 3}
+  - {fileID: 21300000, guid: 99e8a6fdce14fdf489557cae2bf40ff7, type: 3}
+  - {fileID: 21300000, guid: fbff5c775f7f41c4d91ec528f434b62d, type: 3}
+  - {fileID: 21300000, guid: 591ed988bcddbf94ba47a38dccfebbbd, type: 3}
+  - {fileID: 21300000, guid: 6371b452219270e40869d9c29215193f, type: 3}
+  - {fileID: 21300000, guid: 47da4e2f5d4ab704c8e10f7ff8994585, type: 3}
+  - {fileID: 21300000, guid: e8e8d7c8fb42caa4ebdb53120774f8bb, type: 3}
+  - {fileID: 21300000, guid: a0874057b115e27459e6cf2149dc267c, type: 3}
+  - {fileID: 21300000, guid: 95370497e41448d428a060fa73e11ef0, type: 3}
+  - {fileID: 21300000, guid: 413317be3ae1e604184b45b17e36d9ce, type: 3}
+  - {fileID: 21300000, guid: 9de422122f2eb9c40941f74e2a66f16e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -10509,7 +10583,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683371054}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2053102279
 GameObject:
@@ -11720,7 +11794,7 @@ PrefabInstance:
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -21.145262
+      value: -22.577168
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863257, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
