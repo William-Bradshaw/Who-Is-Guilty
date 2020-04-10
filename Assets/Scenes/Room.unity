@@ -6531,7 +6531,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 621.64606
-    y: 630.58386
+    y: 634.8796
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6584,7 +6584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 619.28613
+    x: 613.55853
     y: 492.44553
     width: 120
     height: 40
@@ -6899,7 +6899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1140.8718
+    x: 1139.44
     y: 382.32144
     width: 120
     height: 40
@@ -6958,8 +6958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1143.1799
-    y: 321.44238
+    x: 1141.748
+    y: 324.30618
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6985,8 +6985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1138.8915
-    y: 253.63283
+    x: 1134.5958
+    y: 255.06473
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7257,7 +7257,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+    stringVal: 'oliver: I''m glad I could be helpful, detective!'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7284,8 +7284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 446.1803
-    y: 339.54688
+    x: 441.88458
+    y: 338.11496
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7311,8 +7311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 627.142
-    y: 399.0223
+    x: 622.8463
+    y: 403.31802
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7321,7 +7321,8 @@ MonoBehaviour:
   blockName: Oliver_D
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936182}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936157
 MonoBehaviour:
@@ -7339,9 +7340,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
-      years now. She''s rented retail space from me for a while, like most other business-owners
-      in this town.'
+    stringVal: "oliver: Oh, I don't know Sofia very well... \n...She only moved to
+      this town a little while ago, right?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7368,8 +7368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 630.8818
-    y: 329.3836
+    x: 629.4499
+    y: 333.67932
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7395,7 +7395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 626.4254
+    x: 620.6978
     y: 262.1653
     width: 120
     height: 40
@@ -7422,8 +7422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 641.66394
-    y: 176.5223
+    x: 640.23206
+    y: 175.0904
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7669,7 +7669,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, I''m glad you''ve wrapped up this little charade.'
+    stringVal: 'lily: Good luck finding the real killer, detective!'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7696,7 +7696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 825.24365
+    x: 823.81177
     y: -22.444092
     width: 120
     height: 40
@@ -7723,8 +7723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1003.82385
-    y: 99.31278
+    x: 988.07294
+    y: 112.19995
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7733,7 +7733,8 @@ MonoBehaviour:
   blockName: Lily_D
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936213}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936172
 MonoBehaviour:
@@ -7751,9 +7752,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'mrdavids: Well, if you MUST know, I have known Sofia for over two
-      years now. She''s rented retail space from me for a while, like most other business-owners
-      in this town.'
+    stringVal: 'lily: I''ve known Sofia for, like, forever!
+
+      ...OK, but I seriously only got to know her when my family moved here last year.
+
+      It feels like forever, though. Nothing ever happens in this small town...'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7780,8 +7783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1002.54065
-    y: 39.26396
+    x: 999.6768
+    y: 50.71921
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7807,8 +7810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1006.07385
-    y: -35.47727
+    x: 1001.77814
+    y: -26.88583
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7817,7 +7820,8 @@ MonoBehaviour:
   blockName: Lily_B
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936212}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936175
 MonoBehaviour:
@@ -7833,8 +7837,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1004.9806
-    y: -108.276535
+    x: 993.5254
+    y: -102.548904
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7843,7 +7847,8 @@ MonoBehaviour:
   blockName: Lily_A
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1569936184}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936176
 MonoBehaviour:
@@ -8002,6 +8007,37 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1569936182
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Oliver: Hm... Not too well, I think.
+
+      I didn''t really get the chance to get to know her.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1569936183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8016,8 +8052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 819.96826
-    y: -113.9853
+    x: 814.2406
+    y: -112.55339
     width: 130.18677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8033,6 +8069,36 @@ MonoBehaviour:
   - {fileID: 1569936177}
   - {fileID: 1569936176}
   suppressAllAutoSelections: 0
+--- !u!114 &1569936184
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Lily: Actually, the last time I saw Sofia wasn't even at her house.
+      \nLast Tuesday, I went to her jewerly shop for some shopping."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1569936185
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8751,6 +8817,72 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "agatha: Me and Sofia hardly know each other, really. \nThe only thing
       we have in common is living on the same street. Hardly a reason to be \"FRIENDS\"."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936212
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Lily: I went to Sofia''s shop to buy myself a new necklace!
+
+      ...I seem to have misplaced it, though.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1569936213
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 208
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Lily: Oh, my relationship with Sofia, was like, fine... I guess.
+
+      We didn''t really fight or anything even though we were neighbours.
+
+      Sometimes I''d shop at her store...
+
+      But I guess there''s only one jewerly shop in the town.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -11368,12 +11500,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 652.2144
+      value: 650.78253
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -123.87964
+      value: -122.44773
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863236, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -11428,12 +11560,12 @@ PrefabInstance:
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.x
-      value: 641.4208
+      value: 637.12506
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: 21.769423
+      value: 23.201328
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863238, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
@@ -11463,7 +11595,7 @@ PrefabInstance:
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
       propertyPath: nodeRect.y
-      value: -46.761883
+      value: -42.466164
       objectReference: {fileID: 0}
     - target: {fileID: 3575179710556863239, guid: 2b317b682eb6d2e469edf31ee6441ad8,
         type: 3}
