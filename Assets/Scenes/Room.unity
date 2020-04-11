@@ -7814,9 +7814,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'lily: I''ve known Sofia for, like, forever!
-
-      ...OK, but I seriously only got to know her when my family moved here last year.
+    stringVal: 'lily sad2: ...OK, but I seriously only got to know her when my family
+      moved here last year.
 
       It feels like forever, though. Nothing ever happens in this small town...'
   clearPrevious:
@@ -7845,8 +7844,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 999.6768
-    y: 50.71921
+    x: 1001.1087
+    y: 53.583023
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7856,6 +7855,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1569936214}
   - {fileID: 1569936172}
   suppressAllAutoSelections: 0
 --- !u!114 &1569936174
@@ -7872,8 +7872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1001.77814
-    y: -26.88583
+    x: 1000.34625
+    y: -16.862486
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7899,8 +7899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 993.5254
-    y: -102.548904
+    x: 992.0935
+    y: -101.117
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8957,6 +8957,33 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1569936214
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569936084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 209
+  indentLevel: 0
+  storyText: I've known Sofia for, like, forever!
+  description: 
+  character: {fileID: 1543009225}
+  portrait: {fileID: 21300000, guid: f6fc7b97f3038934099c64ff21ecd094, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1571344970
 GameObject:
   m_ObjectHideFlags: 0
@@ -11380,7 +11407,7 @@ PrefabInstance:
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
       propertyPath: currentRoom
-      value: 1
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2767363129866532108, guid: 9daf160b6d079cf4786f9828b66cafcd,
         type: 3}
@@ -12695,6 +12722,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7cd7ee36ee1b70a47b40f4d1d73b58c6,
         type: 3}
+    - target: {fileID: 462278297557124138, guid: 8189e7a5698321d469ced170e35b27f4,
+        type: 3}
+      propertyPath: fungusStage
+      value: 
+      objectReference: {fileID: 2107032344}
     - target: {fileID: 5120899229982212356, guid: 8189e7a5698321d469ced170e35b27f4,
         type: 3}
       propertyPath: m_LocalPosition.x

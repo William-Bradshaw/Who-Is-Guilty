@@ -2,9 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
 public class RoomManager : MonoBehaviour
 {
+    public string currentBlockName;
+
+    public Flowchart gameFlowchart;
+    public Character currentCharacter;
+
+    public Stage fungusStage;
+
+    public Sprite currentNPCSprite;
+    
+    private Block[] currentBlocks;
 
     public GameManager gameState;
     public Image background;
@@ -40,9 +51,48 @@ public class RoomManager : MonoBehaviour
 
     }
 
+    // update NPC expressions
+    void NPCUpdate()
+    {
+
+        if (gameFlowchart.GetComponents<Block>().Length != 0)
+        {
+
+            Block executingBlock;
+
+            currentBlocks = gameFlowchart.GetComponents<Block>();
+
+            for (int i = 0; i < currentBlocks.Length; i++)
+            {
+
+                if (currentBlocks[i].IsExecuting())
+                {
+
+                    executingBlock = currentBlocks[i];
+
+                    currentBlockName = executingBlock.name;
+
+                }
+
+            }
+
+        } else
+        {
+            currentBlockName = "NONE";
+        }
+
+        List<Character> characterList = Stage.GetActiveStage().CharactersOnStage;
+
+        currentNPCSprite = characterList[0].ProfileSprite; 
+
+
+    }
+
     // Update is called once per frame
     void Update()
     {
+
+        NPCUpdate();
 
         // set current roomBG
         int currentRoomID = (int)gameState.currentRoom;
