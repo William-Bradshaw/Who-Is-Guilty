@@ -39,8 +39,8 @@ public class NPC : MonoBehaviour
         if (activeNPC)
         {
 
-            npcSprite = gameObject.GetComponentInChildren<Sprite>();
-            npcSprite = roomManager.currentNPCSprite;
+            //npcSprite = gameObject.GetComponentInChildren<Sprite>();
+            //npcSprite = roomManager.currentNPCSprite;
 
         }
 

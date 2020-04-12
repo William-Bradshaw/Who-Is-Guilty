@@ -55,7 +55,7 @@ public class RoomManager : MonoBehaviour
     void NPCUpdate()
     {
 
-        if (gameFlowchart.GetComponents<Block>().Length != 0)
+        if (gameFlowchart.gameObject.GetComponents<Block>().Length != 0)
         {
 
             Block executingBlock;
@@ -92,7 +92,7 @@ public class RoomManager : MonoBehaviour
     void Update()
     {
 
-        NPCUpdate();
+        //NPCUpdate();
 
         // set current roomBG
         int currentRoomID = (int)gameState.currentRoom;
@@ -244,4 +244,35 @@ public class RoomManager : MonoBehaviour
 
 
     }
+
+    public void setupMrDavidsInterview()
+    {
+        gameState.currentRoom = (GameManager.Room)32;
+    }
+
+    public void setupLilyInterview()
+    {
+        gameState.currentRoom = (GameManager.Room)33;
+    }
+
+    public void setupOliverInterview()
+    {
+        gameState.currentRoom = (GameManager.Room)34;
+    }
+
+    public void setupMonicaInterview()
+    {
+        gameState.currentRoom = (GameManager.Room)35;
+    }
+
+    public void setupAgathaInterview()
+    {
+        gameState.currentRoom = (GameManager.Room)36;
+    }
+
+    public void setupEmptyInterviewRoom()
+    {
+        gameState.currentRoom = (GameManager.Room)37;
+    }
+
 }

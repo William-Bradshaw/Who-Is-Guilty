@@ -99,7 +99,23 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public static void returnDestinations(int id)
+    public static string returnInterviewBlockName(int id)
+    {
+
+        switch (id)
+        {
+
+
+
+            default:
+                return "NONE";
+        }
+
+
+
+    }
+
+        public static void returnDestinations(int id)
     {
 
         RoomDestinations dest = new RoomDestinations();
@@ -562,5 +578,8 @@ public class GameManager : MonoBehaviour
 
 
     }
+
+
+    
 
 }
