@@ -3979,7 +3979,19 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Lily: Ya know... I really hate that detective!'
+    stringVal: 'unknown: After arresting Mr. Davids, Lily, and Oliver and bringing
+      them into court... the truth was brought to light!
+
+      It was a conspiracy created by this horrible trio to murder poor Sofia, who
+      was apparently suspected of being a witch...
+
+      mayor: You did it, detective! You''ve found out the killers for sure.
+
+      lily: Ya know... I really hate that detective!
+
+      mrdavids: Wow, I wasted so much money on my lawyers.
+
+      oliver: This stinks.'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -4021,8 +4033,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -103.63511
-    y: 388.0631
+    x: -105.06702
+    y: 389.49503
     width: 130.18677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4052,7 +4064,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1.5
+    floatVal: 2.5
   durationOLD: 0
 --- !u!114 &1569936089
 MonoBehaviour:
