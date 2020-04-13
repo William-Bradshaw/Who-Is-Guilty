@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room.unity
     guid: 0743529aabb80a74e9e35b40ae79793c
+  - enabled: 1
+    path: Assets/Scenes/EndingFalseGuilty.unity
+    guid: 615199db100fd4b4295ad9059e9309ac
+  - enabled: 1
+    path: Assets/Scenes/EndingHappy1.unity
+    guid: 80d989b1b4bd9094c99b1da9d92dbcd2
+  - enabled: 1
+    path: Assets/Scenes/EndingHappy2.unity
+    guid: f294815fb15d4314dafcb2e63bf2a31e
+  - enabled: 1
+    path: Assets/Scenes/EndingMissingGuilty.unity
+    guid: 541e2eb8a3bb821429689ef1217b8772
+  - enabled: 1
+    path: Assets/Scenes/EndingWorst.unity
+    guid: f8d51491863a11d409d809b699a61c42
   m_configObjects: {}

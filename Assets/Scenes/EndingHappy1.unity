@@ -4022,7 +4022,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -103.63511
-    y: 383.7674
+    y: 388.0631
     width: 130.18677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4070,7 +4070,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Room
+    stringVal: EndingHappy2
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1569936090 stripped

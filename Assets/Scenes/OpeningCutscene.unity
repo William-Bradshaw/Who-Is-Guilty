@@ -3520,8 +3520,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -103.63511
-    y: 383.7674
-    width: 129.12
+    y: 385.1993
+    width: 130.18677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
